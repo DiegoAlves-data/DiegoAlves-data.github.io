@@ -18,15 +18,15 @@ Três mundos que, na prática, são um só: **ler o problema certo, construir a 
 
 ---
 
-### Por que este site existe agora
+### Um registro contínuo sobre A.I. Deployment
 
-Fui selecionado para a formação em **Forward Deployed Engineering / A.I. Deployment** da Barte — três dias presenciais, mão na massa, com um squad que coloca agentes de IA para rodar dentro da operação real de clientes.
+Este espaço vai reunir os estudos que considero relevantes para quem quer entender e atuar em **Forward Deployed Engineering / A.I. Deployment** — um campo novo, que está mudando a forma como agentes de IA saem do protótipo e entram em produção dentro da operação real de uma empresa. Acho que vale contribuir com isso em público, e não só guardar num caderno.
 
-Antes da imersão, são **14 dias de preparação**. Decidi tornar esse processo público: um artigo por dia, no ar, sem crase.
+Comecei com um **mapa de 14 dias**: um roteiro aberto, publicado um artigo por vez, que cobre o vocabulário técnico (harness, context engineering, evals, guardrails), a economia do modelo e o que, depois de se repetir, vira produto. A ideia é que sirva de ponto de partida para quem quer se nivelar e estar pronto para atuar como FDE / AI Deployer — venha você de engenharia, de produto ou de negócio.
 
-Não é conteúdo polido depois do fato. É o registro de quem está estudando um campo novo em tempo real — o que entendi, o que errei, o que vou perguntar quando sentar com quem já faz isso todos os dias.
+Não é conteúdo polido depois do fato. É o registro de quem está estudando em tempo real — o que entendi, o que errei, as perguntas que levo para quem já faz isso todos os dias. E continua depois do dia 14: a intenção é manter este espaço vivo com o que eu for aprendendo daqui para frente.
 
-**[→ Acompanhe o desafio dos 14 dias](/blog/)**
+**[→ Acompanhe o mapa de 14 dias](/blog/)**
 
 ---
 
@@ -35,6 +35,8 @@ Não é conteúdo polido depois do fato. É o registro de quem está estudando u
 Antes de dados e IA, minha trajetória passou por Letras — o que explica por que linguagem, estrutura e tradução entre domínios nunca deixaram de ser ferramenta de trabalho, só mudaram de aplicação.
 
 Parte desse caminho começou em projetos de estudo de ciência de dados — regressão, classificação, NLP. Ficaram registrados, revisados, em **[Estudos de Data Science](/estudos-data-science/)**.
+
+Os projetos reais de agentes de IA que venho construindo vão para **[Projetos Reais de IA](/projetos-ia/)** — em atualização.
 
 ---
 

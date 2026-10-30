@@ -1,7 +1,9 @@
 main:
   - title: "Sobre"
     url: /
-  - title: "Desafio: 14 Dias para FDE / AI Deployment"
+  - title: "Mapa: 14 Dias para FDE / AI Deployment"
     url: /blog/
+  - title: "Projetos Reais de IA"
+    url: /projetos-ia/
   - title: "Estudos de Data Science"
     url: /estudos-data-science/
