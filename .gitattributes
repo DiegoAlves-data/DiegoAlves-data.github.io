@@ -1,0 +1,2 @@
+assets/audio/** filter=lfs diff=lfs merge=lfs -text
+assets/images/desafio-fde/** filter=lfs diff=lfs merge=lfs -text
