@@ -10,7 +10,7 @@ Toda formação tem aquele termo que todo mundo repete e poucos conseguem explic
 
 Este artigo é a versão de referência que eu queria ter tido no primeiro dia: de onde o modelo vem, como ele funciona por dentro e os conceitos que, uma vez entendidos, fazem o resto encaixar. Guarda esse material. Ele serve pra consultar de novo quando a dúvida voltar — e ela volta.
 
-Prefere ouvir a ler? Gravei um áudio comentando esse artigo, da origem na Palantir até a adoção por empresas de IA como OpenAI e Ramp.
+Prefere ouvir a ler? Tenho um resumo em podcast, feito no NotebookLM, pra te ajudar mais sobre o tema — da origem na Palantir até a adoção por empresas de IA como OpenAI e Ramp.
 
 <audio controls style="width: 100%;">
   <source src="{{ '/assets/audio/desafio-fde/dia-01-palantir-a-openai.mp3' | relative_url }}" type="audio/mpeg">
@@ -20,7 +20,7 @@ Prefere ouvir a ler? Gravei um áudio comentando esse artigo, da origem na Palan
 ## O mapa completo, em uma imagem
 
 <figure>
-  <img src="{{ '/assets/images/desafio-fde/dia-01-modelo-fde.png' | relative_url }}" alt="Infográfico: O Modelo Forward Deployed Engineer (FDE) — da Palantir à era da IA, com origem, mecânica Echo/Delta, ciclo cascalho-para-rodovia e expansão em startups de IA">
+  <img src="{{ '/assets/images/desafio-fde/dia-01-modelo-fde.jpg' | relative_url }}" alt="Infográfico: O Modelo Forward Deployed Engineer (FDE) — da Palantir à era da IA, com origem, mecânica Echo/Delta, ciclo cascalho-para-rodovia e expansão em startups de IA">
   <figcaption>Contexto, mecânica e expansão do modelo FDE — da Palantir às startups de IA de hoje.</figcaption>
 </figure>
 
