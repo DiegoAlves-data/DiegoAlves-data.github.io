@@ -1,6 +1,6 @@
-# diego-alves.github.io
+# DiegoAlves-data.github.io
 
-Site pessoal de Diego Rodrigues — https://diegoalves-data.github.io/diego-alves.github.io/
+Site pessoal de Diego Rodrigues — https://diegoalves-data.github.io/
 
 Jekyll + [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) (via `remote_theme`), publicado no GitHub Pages.
 
