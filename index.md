@@ -1,44 +1,40 @@
-# Portfolio
 ---
-## Pandas, Data Cleaning and Manipulation
-
-### Sharkattack: a business opportunity
-
-Would Brazil be a good market for selling devices that prevent shark attacks?
-The objective of this project is to base, based on structured data analysis, the possible decision-making of investors in a company that prevents shark attacks in Brazil
-
-[![View Notebook on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/DiegoAlves-data/DiegoAlves-data/blob/master/shark_attack_oportunities.ipynb)
-
-**Data Base:** You can find this database at the following link ([Site] (https://www.sharkattackfile.net/) ). It will be used in the development of this project.
-
-**Project PPT - Presentation:** To help present the project to potential investors, a PPT was created and you can view it at the link below: [![View Notebook on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-red?logo=GitHub)](https://github.com/DiegoAlves-data/DiegoAlves-data/blob/master/Challenge%2001%20-%20Iron%20Hack.pdf).
-
-<center><img src="images/Screen Shot 2020-11-27 at 13.13.05 PM.png"/></center>
-
+layout: single
+title: "Diego Rodrigues"
+permalink: /
+author_profile: true
 ---
-### Web Scraping: downloading the database of Brazilian NGOs
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://github.com/DiegoAlves-data/DiegoAlves-data/blob/master/Brazilian_ONGs_Data_Scrapping.ipynb)
+## Dados, oratória e agentes de IA — na prática, não na teoria
 
-<div style="text-align: justify">Project executed from the web scrapping libraries: requests and beautiful soup.
-The challenge was to go through more than 20 thousand pages in order to download HTML data from more than 20 thousand Brazilian NGOs.
-The data were all structured and stored in a Data Set to be later used for various purposes. Scraped Site: http://www.ongsbrasil.com.br/</div>
+Eu sou **Diretor de Data Strategy & Analytics** numa das maiores agências de publicidade do Brasil, onde lidero a estratégia de dados de uma conta global de mídia e e-commerce. KPIs, ETL, data warehouse, automação de fluxo — e, cada vez mais, agentes de IA fazendo o trabalho que antes era de planilha e paciência.
 
+Sou também **professor de Oratória e Storytelling com Dados** em MBA, onde ensino o que poucos técnicos aprendem e poucos comunicadores dominam: como transformar análise complexa em argumento que convence em três minutos.
 
-<center><img src="images/Screen Shot 2020-11-27 at 17.48.29 PM.png"/></center>
+E atuo como **consultor** em estratégia, dados e posicionamento para empresas e profissionais que precisam de clareza antes de precisar de ferramenta.
 
----
-### Machine Learning Study for Marketing Convertions Ads Campaigns
-
-[![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/15_kf4NkpqCW8gvNEhy-90edtHLrMo5Mw?usp=sharing)
-
-<div style="text-align: justify">The objective was to understand, through a Linear Regression algorithm, what is the relationship between the variables: ad clicks and paid amount in the ad, to understand the influence on the number of purchases. The database was downloaded from Kaggle and has its origin in a Facebook ads campaign.</div>
-<br>
-<center><img src="images/facebook.jpg"></center>
-<br>
+Três mundos que, na prática, são um só: **ler o problema certo, construir a solução certa e contar a história certa sobre ela.**
 
 ---
 
+### Por que este site existe agora
+
+Fui selecionado para a formação em **Forward Deployed Engineering / A.I. Deployment** da Barte — três dias presenciais, mão na massa, com um squad que coloca agentes de IA para rodar dentro da operação real de clientes.
+
+Antes da imersão, são **14 dias de preparação**. Decidi tornar esse processo público: um artigo por dia, no ar, sem crase.
+
+Não é conteúdo polido depois do fato. É o registro de quem está estudando um campo novo em tempo real — o que entendi, o que errei, o que vou perguntar quando sentar com quem já faz isso todos os dias.
+
+**[→ Acompanhe o desafio dos 14 dias](/blog/)**
 
 ---
-<center>© 2020 Diego Rodrigues. Powered by Jekyll and the Minimal Theme.</center>
+
+### O resto do trabalho
+
+Antes de dados e IA, minha trajetória passou por Letras — o que explica por que linguagem, estrutura e tradução entre domínios nunca deixaram de ser ferramenta de trabalho, só mudaram de aplicação.
+
+Parte desse caminho começou em projetos de estudo de ciência de dados — regressão, classificação, NLP. Ficaram registrados, revisados, em **[Estudos de Data Science](/estudos-data-science/)**.
+
+---
+
+*Contato: [LinkedIn](https://www.linkedin.com/in/diegoaorodrigues/) · [GitHub](https://github.com/DiegoAlves-data) · [e-mail](mailto:diegoalvesteo@gmail.com)*

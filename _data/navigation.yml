@@ -1,0 +1,7 @@
+main:
+  - title: "Sobre"
+    url: /
+  - title: "Desafio: 14 Dias para FDE / AI Deployment"
+    url: /blog/
+  - title: "Estudos de Data Science"
+    url: /estudos-data-science/
