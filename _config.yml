@@ -2,7 +2,7 @@ locale: "pt-BR"
 title: "Diego Rodrigues"
 title_separator: "–"
 name: "Diego Rodrigues"
-description: "Diretor de Data Strategy & Analytics. Construtor de agentes de IA. Professor de Oratória e Storytelling com Dados. Registro público dos 14 dias de preparação para a formação em Forward Deployed Engineering / A.I. Deployment."
+description: "Diretor de Data Strategy & Analytics. A.I Deployer. Professor de Oratória e Storytelling com Dados. Registro público dos 14 dias de preparação para a formação em Forward Deployed Engineering / A.I. Deployment."
 url: "https://diegoalves-data.github.io"
 baseurl: ""
 
@@ -30,7 +30,7 @@ words_per_minute: 200
 author:
   name: "Diego Rodrigues"
   avatar: "/assets/images/diego-rodrigues.jpg"
-  bio: "Diretor de Data Strategy & Analytics. Construtor de agentes de IA. Professor de Oratória e Storytelling com Dados."
+  bio: "Diretor de Data Strategy & Analytics. A.I Deployer. Professor de Oratória e Storytelling com Dados."
   location: "Campinas, SP — Brasil"
   links:
     - label: "LinkedIn"
