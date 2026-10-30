@@ -6,7 +6,7 @@ tags: [fde, ai-deployment, compromisso-publico]
 excerpt: "Fui selecionado para uma formação intensiva em Forward Deployed Engineering / A.I. Deployment. Antes da imersão presencial, 14 dias de preparação — públicos."
 ---
 
-Fui selecionado para uma formação intensiva em **Forward Deployed Engineering / A.I. Deployment**: três dias presenciais, mão na massa, com um time que coloca agentes de IA para rodar dentro da operação real de clientes — não em slide, em produção.
+Fui selecionado para uma formação intensiva em **Forward Deployed Engineering / A.I. Deployment**: três dias presenciais, mão na massa, com um time que coloca agentes de IA para rodar dentro da operação real de clientes — não em slide, em produção. (O material do curso é restrito a quem participa — por isso não cito aqui qual formação é essa.)
 
 Antes da imersão, tenho uma janela de **14 dias de preparação**. Era para ser um estudo privado, num caderno meu. Decidi fazer diferente.
 
