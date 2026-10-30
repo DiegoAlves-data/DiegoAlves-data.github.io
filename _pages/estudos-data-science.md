@@ -2,7 +2,6 @@
 layout: single
 title: "Estudos de Data Science"
 permalink: /estudos-data-science/
-author_profile: true
 classes: wide
 ---
 

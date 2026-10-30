@@ -3,6 +3,7 @@ layout: single
 title: "Diego Rodrigues"
 permalink: /
 author_profile: true
+classes: wide
 ---
 
 ## Dados, oratória e agentes de IA — na prática, não na teoria
