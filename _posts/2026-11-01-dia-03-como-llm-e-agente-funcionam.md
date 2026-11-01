@@ -259,9 +259,12 @@ Um conselho de quem dá aula de comunicação: não decore a tabela. **Explique 
 
 **A anatomia de um agente de IA** — 14 páginas, do zero à orquestração: janela de contexto, embeddings, pipeline de RAG, chunking, LangChain e LangGraph, MCP e a arquitetura completa de um agente.
 
-<object data="{{ '/assets/docs/dia-03-anatomia-de-um-agente-de-ia.pdf' | relative_url }}" type="application/pdf" width="100%" height="560" style="border:1px solid #e5e7eb;border-radius:6px;">
-  <p>Seu navegador não exibe PDF aqui. <a href="{{ '/assets/docs/dia-03-anatomia-de-um-agente-de-ia.pdf' | relative_url }}">Baixe o PDF</a>.</p>
-</object>
+<figure>
+  <a href="{{ '/assets/docs/dia-03-anatomia-de-um-agente-de-ia.pdf' | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/desafio-fde/dia-03-anatomia-capa.jpg' | relative_url }}" alt="Capa do PDF A Anatomia de um Agente de IA: do zero à orquestração avançada, com LLMs, RAG, bancos vetoriais, LangGraph e MCP.">
+  </a>
+  <figcaption>Clique na capa para abrir o PDF completo.</figcaption>
+</figure>
 
 **[↓ Baixar o PDF (3,7 MB)]({{ '/assets/docs/dia-03-anatomia-de-um-agente-de-ia.pdf' | relative_url }})**
 
