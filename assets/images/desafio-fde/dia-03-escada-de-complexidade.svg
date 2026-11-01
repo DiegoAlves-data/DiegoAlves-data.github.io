@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <text x="40" y="40" font-size="22" font-weight="700" fill="#0f172a">A escada da complexidade</text>
+  <text x="40" y="64" font-size="14" fill="#475569">Só suba um degrau quando houver evidência de ganho</text>
+
+  <g>
+    <rect x="40" y="380" width="176" height="80" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="54" y="400" font-size="13" font-weight="700" fill="#64748b">1</text>
+    <text x="54" y="418" font-size="15" font-weight="700" fill="#0f172a">Uma chamada</text>
+    <text x="54" y="436" font-size="13" fill="#475569">bem feita,</text>
+    <text x="54" y="452" font-size="13" fill="#475569">com bom contexto</text>
+
+    <rect x="226" y="310" width="176" height="150" rx="8" fill="#e2e8f0" stroke="#94a3b8"/>
+    <text x="240" y="338" font-size="13" font-weight="700" fill="#64748b">2</text>
+    <text x="240" y="358" font-size="15" font-weight="700" fill="#0f172a">LLM aumentado</text>
+    <text x="240" y="378" font-size="13" fill="#475569">+ busca (RAG)</text>
+    <text x="240" y="396" font-size="13" fill="#475569">+ tools</text>
+    <text x="240" y="414" font-size="13" fill="#475569">+ memória</text>
+
+    <rect x="412" y="240" width="176" height="220" rx="8" fill="#fed7aa" stroke="#fb923c"/>
+    <text x="426" y="268" font-size="13" font-weight="700" fill="#9a3412">3</text>
+    <text x="426" y="288" font-size="15" font-weight="700" fill="#0f172a">Workflow fixo</text>
+    <text x="426" y="308" font-size="13" fill="#7c2d12">prompt chaining</text>
+    <text x="426" y="326" font-size="13" fill="#7c2d12">routing</text>
+    <text x="426" y="344" font-size="13" fill="#7c2d12">paralelização</text>
+    <text x="426" y="372" font-size="12" fill="#9a3412">o código decide</text>
+    <text x="426" y="388" font-size="12" fill="#9a3412">a sequência</text>
+
+    <rect x="598" y="170" width="176" height="290" rx="8" fill="#fdba74" stroke="#f97316"/>
+    <text x="612" y="198" font-size="13" font-weight="700" fill="#9a3412">4</text>
+    <text x="612" y="218" font-size="15" font-weight="700" fill="#0f172a">Workflow com</text>
+    <text x="612" y="236" font-size="15" font-weight="700" fill="#0f172a">LLMs coordenando</text>
+    <text x="612" y="258" font-size="13" fill="#7c2d12">orquestrador–workers</text>
+    <text x="612" y="276" font-size="13" fill="#7c2d12">avaliador–otimizador</text>
+
+    <rect x="784" y="100" width="176" height="360" rx="8" fill="#c2410c"/>
+    <text x="798" y="128" font-size="13" font-weight="700" fill="#ffedd5">5</text>
+    <text x="798" y="148" font-size="15" font-weight="700" fill="#ffffff">Agente</text>
+    <text x="798" y="168" font-size="13" fill="#ffedd5">o LLM decide os passos</text>
+    <text x="798" y="186" font-size="13" fill="#ffedd5">e quais tools usar</text>
+  </g>
+
+  <line x1="60" y1="496" x2="940" y2="496" stroke="#334155" stroke-width="2" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="60" y="524" font-size="14" font-weight="700" fill="#0f172a">previsível · barato · testável</text>
+  <text x="940" y="524" font-size="14" font-weight="700" fill="#c2410c" text-anchor="end">flexível · caro · lento · difícil de testar</text>
+  <text x="500" y="548" font-size="12" fill="#64748b" text-anchor="middle">Padrões de composição segundo "Building effective agents" (Anthropic, 2024)</text>
+</svg>

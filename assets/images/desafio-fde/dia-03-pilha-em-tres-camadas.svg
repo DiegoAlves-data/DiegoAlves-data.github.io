@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <text x="40" y="40" font-size="22" font-weight="700" fill="#0f172a">A pilha em três camadas</text>
+  <text x="40" y="64" font-size="14" fill="#475569">O esqueleto de qualquer diagrama de agente</text>
+
+  <rect x="40" y="90" width="720" height="110" rx="10" fill="#c2410c"/>
+  <text x="66" y="132" font-size="20" font-weight="700" fill="#ffffff">MODELO (LLM)</text>
+  <text x="66" y="160" font-size="15" fill="#ffedd5">Raciocina e pede. Não executa nada,</text>
+  <text x="66" y="180" font-size="15" fill="#ffedd5">não lembra nada entre uma chamada e outra.</text>
+  <text x="740" y="160" font-size="13" fill="#ffedd5" text-anchor="end">vem pronto, por API</text>
+
+  <g font-size="12" fill="#64748b">
+    <line x1="300" y1="204" x2="300" y2="234" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+    <text x="310" y="223">pedido de tool</text>
+    <line x1="500" y1="234" x2="500" y2="204" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+    <text x="510" y="223">contexto + resultado</text>
+  </g>
+
+  <rect x="40" y="238" width="720" height="140" rx="10" fill="#0f172a"/>
+  <text x="66" y="280" font-size="20" font-weight="700" fill="#ffffff">HARNESS</text>
+  <text x="66" y="308" font-size="15" fill="#cbd5e1">Monta o contexto · roda o loop · executa as tools</text>
+  <text x="66" y="330" font-size="15" fill="#cbd5e1">Regras de parada · guardrails · permissões</text>
+  <text x="66" y="352" font-size="15" fill="#cbd5e1">Memória (reinsere o que importa) · logs</text>
+
+  <g font-size="12" fill="#64748b">
+    <line x1="300" y1="382" x2="300" y2="412" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+    <text x="310" y="401">chamada real</text>
+    <line x1="500" y1="412" x2="500" y2="382" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+    <text x="510" y="401">dado de verdade</text>
+  </g>
+
+  <rect x="40" y="416" width="720" height="110" rx="10" fill="#f1f5f9" stroke="#94a3b8"/>
+  <text x="66" y="458" font-size="20" font-weight="700" fill="#0f172a">DADOS E SISTEMAS DO CLIENTE</text>
+  <text x="66" y="486" font-size="15" fill="#334155">ERP · banco · planilha · adquirente · e-mail</text>
+  <text x="66" y="506" font-size="15" fill="#334155">Legado, dado sujo, permissão amarrada</text>
+
+  <path d="M790 238 h16 v288 h-16" fill="none" stroke="#c2410c" stroke-width="3"/>
+  <text x="826" y="356" font-size="15" font-weight="700" fill="#c2410c">Onde mora</text>
+  <text x="826" y="378" font-size="15" font-weight="700" fill="#c2410c">o trabalho</text>
+  <text x="826" y="400" font-size="15" font-weight="700" fill="#c2410c">de deployment</text>
+  <text x="826" y="428" font-size="13" fill="#475569">não vem na caixa</text>
+</svg>
