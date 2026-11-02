@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="600" fill="#ffffff"/>
+  <text x="40" y="40" font-size="22" font-weight="700" fill="#0f172a">O que entra na janela</text>
+  <text x="40" y="64" font-size="14" fill="#475569">A cada passo, o harness decide o que o modelo vê. O resto fica fora.</text>
+
+  <!-- Coluna 1: fora da janela -->
+  <text x="40" y="104" font-size="12" font-weight="700" fill="#64748b" letter-spacing="1">FORA DA JANELA</text>
+  <g font-size="14">
+    <rect x="40" y="116" width="250" height="56" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="56" y="140" font-weight="700" fill="#0f172a">Extrato de 12 meses</text>
+    <text x="56" y="159" font-size="13" fill="#475569">milhares de linhas, pouco sinal</text>
+
+    <rect x="40" y="186" width="250" height="56" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="56" y="210" font-weight="700" fill="#0f172a">Histórico do loop</text>
+    <text x="56" y="229" font-size="13" fill="#475569">voltas anteriores e resultados brutos</text>
+
+    <rect x="40" y="256" width="250" height="56" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="56" y="280" font-weight="700" fill="#0f172a">Exceções estranhas</text>
+    <text x="56" y="299" font-size="13" fill="#475569">pedem exploração longa e cara</text>
+
+    <rect x="40" y="326" width="250" height="56" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="56" y="350" font-weight="700" fill="#0f172a">Progresso do fechamento</text>
+    <text x="56" y="369" font-size="13" fill="#475569">o que foi feito, o que falta, decisões</text>
+  </g>
+
+  <g stroke="#64748b" stroke-width="2" marker-end="url(#a)">
+    <line x1="294" y1="144" x2="326" y2="144"/>
+    <line x1="294" y1="214" x2="326" y2="214"/>
+    <line x1="294" y1="284" x2="326" y2="284"/>
+    <line x1="294" y1="354" x2="326" y2="354"/>
+  </g>
+
+  <!-- Coluna 2: o harness decide -->
+  <text x="330" y="104" font-size="12" font-weight="700" fill="#64748b" letter-spacing="1">O HARNESS DECIDE</text>
+  <g font-size="14">
+    <rect x="330" y="116" width="230" height="56" rx="8" fill="#0f172a"/>
+    <text x="346" y="140" font-weight="700" fill="#ffffff">SELECT</text>
+    <text x="346" y="159" font-size="13" fill="#cbd5e1">traz só o período e a conta</text>
+
+    <rect x="330" y="186" width="230" height="56" rx="8" fill="#0f172a"/>
+    <text x="346" y="210" font-weight="700" fill="#ffffff">COMPRESS</text>
+    <text x="346" y="229" font-size="13" fill="#cbd5e1">resume e corta resultado antigo</text>
+
+    <rect x="330" y="256" width="230" height="56" rx="8" fill="#0f172a"/>
+    <text x="346" y="280" font-weight="700" fill="#ffffff">ISOLATE</text>
+    <text x="346" y="299" font-size="13" fill="#cbd5e1">sub-agente em janela limpa</text>
+
+    <rect x="330" y="326" width="230" height="56" rx="8" fill="#0f172a"/>
+    <text x="346" y="350" font-weight="700" fill="#ffffff">WRITE</text>
+    <text x="346" y="369" font-size="13" fill="#cbd5e1">grava fora, relê sob demanda</text>
+  </g>
+
+  <g stroke="#64748b" stroke-width="2" marker-end="url(#a)" fill="none">
+    <path d="M564 144 C600 144, 600 251, 632 251"/>
+    <path d="M564 214 C600 214, 600 285, 632 285"/>
+    <path d="M564 284 C600 284, 600 319, 632 319"/>
+    <path d="M564 354 C600 354, 600 353, 632 353"/>
+  </g>
+
+  <!-- Coluna 3: a janela do próximo passo -->
+  <text x="636" y="104" font-size="12" font-weight="700" fill="#c2410c" letter-spacing="1">A JANELA DO PRÓXIMO PASSO</text>
+  <rect x="636" y="116" width="324" height="266" rx="10" fill="#fff7ed" stroke="#c2410c" stroke-width="2"/>
+  <g font-size="13">
+    <rect x="650" y="130" width="296" height="28" rx="5" fill="#ffffff" stroke="#fdba74"/>
+    <text x="662" y="149" fill="#0f172a"><tspan font-weight="700">System prompt</tspan> com heurísticas</text>
+    <rect x="650" y="164" width="296" height="28" rx="5" fill="#ffffff" stroke="#fdba74"/>
+    <text x="662" y="183" fill="#0f172a"><tspan font-weight="700">3 tools</tspan> sem sobreposição</text>
+    <rect x="650" y="198" width="296" height="28" rx="5" fill="#ffffff" stroke="#fdba74"/>
+    <text x="662" y="217" fill="#0f172a"><tspan font-weight="700">5 exemplos</tspan> canônicos + 2 difíceis</text>
+
+    <rect x="650" y="237" width="296" height="28" rx="5" fill="#ffffff" stroke="#c2410c"/>
+    <text x="662" y="256" fill="#0f172a">Lançamentos do mês, só o que decide</text>
+    <rect x="650" y="271" width="296" height="28" rx="5" fill="#ffffff" stroke="#c2410c"/>
+    <text x="662" y="290" fill="#0f172a">Resumo das decisões até aqui</text>
+    <rect x="650" y="305" width="296" height="28" rx="5" fill="#ffffff" stroke="#c2410c"/>
+    <text x="662" y="324" fill="#0f172a">Lista final de exceções do auditor</text>
+    <rect x="650" y="339" width="296" height="28" rx="5" fill="#ffffff" stroke="#c2410c"/>
+    <text x="662" y="358" fill="#0f172a">Caminho do arquivo de progresso</text>
+    <text x="934" y="149" font-size="11" fill="#94a3b8" text-anchor="end">fixo</text>
+    <text x="934" y="183" font-size="11" fill="#94a3b8" text-anchor="end">fixo</text>
+    <text x="934" y="217" font-size="11" fill="#94a3b8" text-anchor="end">fixo</text>
+    <text x="934" y="256" font-size="11" fill="#c2410c" text-anchor="end">muda</text>
+    <text x="934" y="290" font-size="11" fill="#c2410c" text-anchor="end">muda</text>
+    <text x="934" y="324" font-size="11" fill="#c2410c" text-anchor="end">muda</text>
+    <text x="934" y="358" font-size="11" fill="#c2410c" text-anchor="end">muda</text>
+  </g>
+
+  <!-- Faixa de baixo: orçamento de atenção -->
+  <line x1="40" y1="418" x2="960" y2="418" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="40" y="452" font-size="18" font-weight="700" fill="#0f172a">Mais contexto não é contexto melhor</text>
+  <text x="40" y="474" font-size="13" fill="#475569">Cada token disputa a atenção do modelo. Janela cheia sofre context rot.</text>
+
+  <text x="40" y="512" font-size="13" font-weight="700" fill="#334155">Tudo colado</text>
+  <rect x="200" y="496" width="500" height="24" rx="4" fill="#94a3b8"/>
+  <text x="712" y="513" font-size="13" fill="#475569">erra mais, custa mais, demora mais</text>
+
+  <text x="40" y="556" font-size="13" font-weight="700" fill="#334155">Alto sinal</text>
+  <rect x="200" y="540" width="150" height="24" rx="4" fill="#c2410c"/>
+  <text x="362" y="557" font-size="13" fill="#475569">o menor conjunto de tokens que resolve o próximo passo</text>
+</svg>
