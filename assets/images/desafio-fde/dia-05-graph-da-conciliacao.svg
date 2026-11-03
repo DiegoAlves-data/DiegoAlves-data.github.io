@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="470" fill="#ffffff"/>
+  <text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">O graph da conciliação</text>
+  <text x="30" y="58" font-size="14" fill="#475569">Cada nó declara quem decide. O LLM entra só onde existe ambiguidade de verdade.</text>
+
+  <!-- legenda -->
+  <g font-size="12">
+    <rect x="30" y="74" width="14" height="14" rx="3" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="52" y="86" fill="#475569">código (determinístico)</text>
+    <rect x="200" y="74" width="14" height="14" rx="3" fill="#0f172a"/>
+    <text x="222" y="86" fill="#475569">LLM (decide)</text>
+    <rect x="320" y="74" width="14" height="14" rx="3" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="342" y="86" fill="#475569">humano</text>
+  </g>
+
+  <!-- spine -->
+  <g font-size="13">
+    <rect x="30" y="215" width="165" height="62" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="46" y="240" font-size="14" font-weight="700" fill="#0f172a">1 · Ingestão</text>
+    <text x="46" y="261" fill="#475569">extrato + cobranças</text>
+
+    <rect x="215" y="215" width="165" height="62" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="231" y="240" font-size="14" font-weight="700" fill="#0f172a">2 · Normalização</text>
+    <text x="231" y="261" fill="#475569">formato, chaves, sinal</text>
+
+    <rect x="400" y="215" width="165" height="62" rx="8" fill="#0f172a"/>
+    <text x="416" y="240" font-size="14" font-weight="700" fill="#ffffff">3 · Roteador</text>
+    <text x="416" y="261" fill="#cbd5e1">que tipo é este item?</text>
+  </g>
+
+  <!-- ramos -->
+  <g font-size="13">
+    <text x="585" y="107" font-size="12" font-weight="700" fill="#c2410c">~75% do volume</text>
+    <rect x="585" y="115" width="175" height="62" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="601" y="140" font-size="14" font-weight="700" fill="#0f172a">Match direto</text>
+    <text x="601" y="161" fill="#475569">valor + CNPJ + data</text>
+
+    <text x="585" y="207" font-size="12" font-weight="700" fill="#c2410c">~20% do volume</text>
+    <rect x="585" y="215" width="175" height="62" rx="8" fill="#0f172a"/>
+    <text x="601" y="240" font-size="14" font-weight="700" fill="#ffffff">Agente conciliador</text>
+    <text x="601" y="261" fill="#cbd5e1">parcial, agrupado</text>
+
+    <text x="585" y="307" font-size="12" font-weight="700" fill="#c2410c">~5% do volume</text>
+    <rect x="585" y="315" width="175" height="62" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="601" y="340" font-size="14" font-weight="700" fill="#7c2d12">Fila de exceções</text>
+    <text x="601" y="361" fill="#475569">sem cadastro, &gt; R$ 500</text>
+  </g>
+
+  <!-- final -->
+  <g font-size="13">
+    <rect x="790" y="115" width="180" height="62" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="806" y="140" font-size="14" font-weight="700" fill="#0f172a">Registrar</text>
+    <text x="806" y="161" fill="#475569">grava e fecha o item</text>
+
+    <rect x="790" y="215" width="180" height="62" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="806" y="240" font-size="14" font-weight="700" fill="#0f172a">Validador</text>
+    <text x="806" y="261" fill="#475569">confere soma e regra</text>
+
+    <rect x="790" y="315" width="180" height="62" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="806" y="340" font-size="14" font-weight="700" fill="#7c2d12">Humano decide</text>
+    <text x="806" y="361" fill="#475569">aprova ou corrige</text>
+  </g>
+
+  <!-- arestas -->
+  <g stroke="#64748b" stroke-width="2" marker-end="url(#a)" fill="none">
+    <line x1="199" y1="246" x2="211" y2="246"/>
+    <line x1="384" y1="246" x2="396" y2="246"/>
+    <path d="M569,246 H577 V146 H581"/>
+    <line x1="569" y1="246" x2="581" y2="246"/>
+    <path d="M569,246 H577 V346 H581"/>
+    <line x1="764" y1="146" x2="786" y2="146"/>
+    <line x1="764" y1="246" x2="786" y2="246"/>
+    <line x1="764" y1="346" x2="786" y2="346"/>
+    <path d="M880,215 V181"/>
+    <path d="M880,277 V311"/>
+  </g>
+  <text x="893" y="202" font-size="11" fill="#475569">passou</text>
+  <text x="893" y="300" font-size="11" fill="#475569">reprovou</text>
+
+  <text x="30" y="430" font-size="13" fill="#475569">O caminho feliz nunca toca o modelo. Percentuais ilustrativos: a primeira coisa a medir num processo real é essa divisão.</text>
+  <text x="30" y="452" font-size="13" fill="#475569">Quem gera não é quem valida — e a ida ao humano é um nó do desenho, não uma falha dele.</text>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="500" fill="#ffffff"/>
+  <text x="40" y="40" font-size="22" font-weight="700" fill="#0f172a">O loop e as quatro saídas</text>
+  <text x="40" y="64" font-size="14" fill="#475569">O ciclo roda até que um critério de parada dispare. Cada saída tem um destino definido, e nenhuma delas é "parar quando necessário".</text>
+
+  <!-- ciclo -->
+  <text x="40" y="104" font-size="12" font-weight="700" fill="#64748b" letter-spacing="1">O CICLO</text>
+  <g font-size="15" font-weight="700">
+    <rect x="40" y="116" width="160" height="54" rx="8" fill="#0f172a"/>
+    <text x="120" y="149" fill="#ffffff" text-anchor="middle">perceber</text>
+
+    <rect x="232" y="116" width="160" height="54" rx="8" fill="#0f172a"/>
+    <text x="312" y="149" fill="#ffffff" text-anchor="middle">decidir</text>
+
+    <rect x="424" y="116" width="160" height="54" rx="8" fill="#0f172a"/>
+    <text x="504" y="149" fill="#ffffff" text-anchor="middle">agir</text>
+
+    <rect x="616" y="116" width="160" height="54" rx="8" fill="#0f172a"/>
+    <text x="696" y="149" fill="#ffffff" text-anchor="middle">observar</text>
+
+    <rect x="808" y="116" width="160" height="54" rx="8" fill="#0f172a"/>
+    <text x="888" y="149" fill="#ffffff" text-anchor="middle">reavaliar</text>
+  </g>
+  <g stroke="#64748b" stroke-width="2" marker-end="url(#a)" fill="none">
+    <line x1="204" y1="143" x2="226" y2="143"/>
+    <line x1="396" y1="143" x2="418" y2="143"/>
+    <line x1="588" y1="143" x2="610" y2="143"/>
+    <line x1="780" y1="143" x2="802" y2="143"/>
+    <path d="M888,174 V200 H120 V176"/>
+  </g>
+  <text x="504" y="217" font-size="12" fill="#64748b" text-anchor="middle">volta para o modelo com o resultado na janela</text>
+
+  <!-- saídas -->
+  <text x="40" y="258" font-size="12" font-weight="700" fill="#c2410c" letter-spacing="1">AS QUATRO SAÍDAS</text>
+  <g stroke="#c2410c" stroke-width="2" marker-end="url(#b)" stroke-dasharray="4 3">
+    <line x1="148" y1="226" x2="148" y2="266"/>
+    <line x1="396" y1="226" x2="396" y2="266"/>
+    <line x1="644" y1="226" x2="644" y2="266"/>
+    <line x1="892" y1="226" x2="892" y2="266"/>
+  </g>
+
+  <g font-size="13">
+    <!-- 1 -->
+    <rect x="40" y="270" width="215" height="162" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="56" y="296" font-size="14" font-weight="700" fill="#7c2d12">1 · Objetivo atingido</text>
+    <text x="56" y="320" fill="#475569">todo item tem status e</text>
+    <text x="56" y="338" fill="#475569">uma checagem confirmou</text>
+    <line x1="56" y1="356" x2="239" y2="356" stroke="#fdba74"/>
+    <text x="56" y="376" font-size="11" font-weight="700" fill="#9a3412" letter-spacing="0.5">DEPOIS</text>
+    <text x="56" y="398" fill="#0f172a">fechar o lote, registrar</text>
+    <text x="56" y="416" fill="#0f172a">o rastro e notificar</text>
+
+    <!-- 2 -->
+    <rect x="288" y="270" width="215" height="162" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="304" y="296" font-size="14" font-weight="700" fill="#7c2d12">2 · Orçamento esgotado</text>
+    <text x="304" y="320" fill="#475569">8 passos por item, 3 min</text>
+    <text x="304" y="338" fill="#475569">por lote, R$ 0,40 por item</text>
+    <line x1="304" y1="356" x2="487" y2="356" stroke="#fdba74"/>
+    <text x="304" y="376" font-size="11" font-weight="700" fill="#9a3412" letter-spacing="0.5">DEPOIS</text>
+    <text x="304" y="398" fill="#0f172a">parar, salvar o progresso</text>
+    <text x="304" y="416" fill="#0f172a">e alertar o responsável</text>
+
+    <!-- 3 -->
+    <rect x="536" y="270" width="215" height="162" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="552" y="296" font-size="14" font-weight="700" fill="#7c2d12">3 · Pedido de ajuda</text>
+    <text x="552" y="320" fill="#475569">divergência acima de</text>
+    <text x="552" y="338" fill="#475569">R$ 500, cliente sem cadastro</text>
+    <line x1="552" y1="356" x2="735" y2="356" stroke="#fdba74"/>
+    <text x="552" y="376" font-size="11" font-weight="700" fill="#9a3412" letter-spacing="0.5">DEPOIS</text>
+    <text x="552" y="398" fill="#0f172a">escalar com contexto e</text>
+    <text x="552" y="416" fill="#0f172a">esperar; retomar depois</text>
+
+    <!-- 4 -->
+    <rect x="784" y="270" width="215" height="162" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="800" y="296" font-size="14" font-weight="700" fill="#7c2d12">4 · Loop improdutivo</text>
+    <text x="800" y="320" fill="#475569">mesmo item tocado 3×, ou</text>
+    <text x="800" y="338" fill="#475569">mesma tool com os mesmos</text>
+    <text x="800" y="356" fill="#475569">parâmetros 2×</text>
+    <line x1="800" y1="370" x2="983" y2="370" stroke="#fdba74"/>
+    <text x="800" y="390" font-size="11" font-weight="700" fill="#9a3412" letter-spacing="0.5">DEPOIS</text>
+    <text x="800" y="410" fill="#0f172a">abortar o item e mandar</text>
+    <text x="800" y="428" fill="#0f172a">para a fila de exceções</text>
+  </g>
+
+  <text x="40" y="468" font-size="13" fill="#475569">Sem as saídas 2 e 4, o agente não trava: ele continua rodando, gastando e errando em silêncio.</text>
+</svg>
