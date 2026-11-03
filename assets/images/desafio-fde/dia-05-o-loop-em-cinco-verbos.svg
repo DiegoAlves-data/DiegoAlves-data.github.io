@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="680" fill="#ffffff"/>
+  <text x="40" y="40" font-size="22" font-weight="700" fill="#0f172a">O loop, em cinco verbos</text>
+  <text x="40" y="64" font-size="14" fill="#475569">O modelo responde uma vez. Quem dá a próxima volta é o código.</text>
+
+  <!-- legenda -->
+  <g font-size="12">
+    <rect x="40" y="82" width="14" height="14" rx="3" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="62" y="94" fill="#475569">harness (o seu código)</text>
+    <rect x="215" y="82" width="14" height="14" rx="3" fill="#0f172a"/>
+    <text x="237" y="94" fill="#475569">modelo</text>
+  </g>
+
+  <!-- cards -->
+  <g font-size="13">
+    <!-- 1 -->
+    <rect x="40" y="118" width="160" height="124" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="56" y="142" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1">1 · HARNESS</text>
+    <text x="56" y="167" font-size="16" font-weight="700" fill="#0f172a">perceber</text>
+    <text x="56" y="192" fill="#475569">monta a janela:</text>
+    <text x="56" y="210" fill="#475569">prompt, tools,</text>
+    <text x="56" y="228" fill="#475569">histórico, resultado</text>
+
+    <!-- 2 -->
+    <rect x="232" y="118" width="160" height="124" rx="8" fill="#0f172a"/>
+    <text x="248" y="142" font-size="11" font-weight="700" fill="#94a3b8" letter-spacing="1">2 · MODELO</text>
+    <text x="248" y="167" font-size="16" font-weight="700" fill="#ffffff">decidir</text>
+    <text x="248" y="192" fill="#cbd5e1">responde uma vez:</text>
+    <text x="248" y="210" fill="#cbd5e1">pede uma tool ou</text>
+    <text x="248" y="228" fill="#cbd5e1">entrega o texto final</text>
+
+    <!-- 3 -->
+    <rect x="424" y="118" width="160" height="124" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="440" y="142" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1">3 · HARNESS</text>
+    <text x="440" y="167" font-size="16" font-weight="700" fill="#0f172a">agir</text>
+    <text x="440" y="192" fill="#475569">executa a ferramenta</text>
+    <text x="440" y="210" fill="#475569">no sistema real</text>
+
+    <!-- 4 -->
+    <rect x="616" y="118" width="160" height="124" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="632" y="142" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1">4 · HARNESS</text>
+    <text x="632" y="167" font-size="16" font-weight="700" fill="#0f172a">observar</text>
+    <text x="632" y="192" fill="#475569">devolve o resultado</text>
+    <text x="632" y="210" fill="#475569">para dentro da janela</text>
+
+    <!-- 5 -->
+    <rect x="808" y="118" width="160" height="124" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="824" y="142" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1">5 · HARNESS</text>
+    <text x="824" y="167" font-size="16" font-weight="700" fill="#0f172a">reavaliar</text>
+    <text x="824" y="192" fill="#475569">dá mais uma volta</text>
+    <text x="824" y="210" fill="#475569">ou para por um</text>
+    <text x="824" y="228" fill="#475569">critério explícito</text>
+  </g>
+
+  <g stroke="#64748b" stroke-width="2" marker-end="url(#a)" fill="none">
+    <line x1="204" y1="180" x2="226" y2="180"/>
+    <line x1="396" y1="180" x2="418" y2="180"/>
+    <line x1="588" y1="180" x2="610" y2="180"/>
+    <line x1="780" y1="180" x2="802" y2="180"/>
+    <path d="M888,246 V272 H120 V248"/>
+  </g>
+  <text x="504" y="289" font-size="12" fill="#64748b" text-anchor="middle">a volta recomeça com a janela maior do que antes</text>
+
+  <!-- custo -->
+  <line x1="40" y1="316" x2="960" y2="316" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="40" y="348" font-size="18" font-weight="700" fill="#0f172a">E a cada volta você paga a janela inteira de novo</text>
+  <text x="40" y="370" font-size="13" fill="#475569">Não é o que mudou: é tudo outra vez — system prompt, tools, histórico e todos os resultados anteriores.</text>
+
+  <g font-size="12">
+    <rect x="40" y="386" width="14" height="14" rx="3" fill="#cbd5e1"/>
+    <text x="62" y="398" fill="#475569">parte fixa (prompt + tools)</text>
+    <rect x="250" y="386" width="14" height="14" rx="3" fill="#fdba74"/>
+    <text x="272" y="398" fill="#475569">histórico acumulado</text>
+  </g>
+
+  <g font-size="13">
+    <text x="40" y="432" fill="#475569">volta 1</text>
+    <rect x="110" y="418" width="112" height="20" rx="3" fill="#cbd5e1"/>
+    <rect x="222" y="418" width="48" height="20" rx="3" fill="#fdba74"/>
+    <text x="284" y="433" font-weight="700" fill="#0f172a">1,0×</text>
+
+    <text x="40" y="468" fill="#475569">volta 2</text>
+    <rect x="110" y="454" width="112" height="20" rx="3" fill="#cbd5e1"/>
+    <rect x="222" y="454" width="128" height="20" rx="3" fill="#fdba74"/>
+    <text x="364" y="469" font-weight="700" fill="#0f172a">1,5×</text>
+
+    <text x="40" y="504" fill="#475569">volta 3</text>
+    <rect x="110" y="490" width="112" height="20" rx="3" fill="#cbd5e1"/>
+    <rect x="222" y="490" width="216" height="20" rx="3" fill="#fdba74"/>
+    <text x="452" y="505" font-weight="700" fill="#0f172a">2,1×</text>
+
+    <text x="40" y="540" fill="#475569">volta 4</text>
+    <rect x="110" y="526" width="112" height="20" rx="3" fill="#cbd5e1"/>
+    <rect x="222" y="526" width="312" height="20" rx="3" fill="#fdba74"/>
+    <text x="548" y="541" font-weight="700" fill="#0f172a">2,7×</text>
+
+    <text x="40" y="576" fill="#475569">volta 5</text>
+    <rect x="110" y="562" width="112" height="20" rx="3" fill="#cbd5e1"/>
+    <rect x="222" y="562" width="416" height="20" rx="3" fill="#fdba74"/>
+    <text x="652" y="577" font-weight="700" fill="#0f172a">3,3×</text>
+
+    <text x="40" y="612" fill="#475569">volta 6</text>
+    <rect x="110" y="598" width="112" height="20" rx="3" fill="#cbd5e1"/>
+    <rect x="222" y="598" width="528" height="20" rx="3" fill="#fdba74"/>
+    <text x="764" y="613" font-weight="700" fill="#0f172a">4,0×</text>
+  </g>
+
+  <rect x="800" y="418" width="160" height="90" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="880" y="446" font-size="12" font-weight="700" fill="#9a3412" text-anchor="middle">AS 6 VOLTAS SOMAM</text>
+  <text x="880" y="480" font-size="30" font-weight="700" fill="#c2410c" text-anchor="middle">~14×</text>
+  <text x="880" y="499" font-size="11" fill="#7c2d12" text-anchor="middle">a primeira chamada</text>
+
+  <text x="800" y="534" font-size="12" fill="#64748b">Proporções ilustrativas.</text>
+  <text x="800" y="552" font-size="12" fill="#64748b">O formato da curva não é.</text>
+
+  <text x="40" y="662" font-size="13" fill="#475569">Agente que não para não "trava". Ele continua. Educadamente. Queimando dinheiro.</text>
+</svg>

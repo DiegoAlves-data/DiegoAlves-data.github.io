@@ -28,6 +28,11 @@ Isso tem uma consequência prática que muita gente só descobre depois de levar
 
 Agente que não para não "trava". Ele continua. Educadamente. Queimando dinheiro.
 
+<figure>
+  <img src="{{ '/assets/images/desafio-fde/dia-05-o-loop-em-cinco-verbos.svg' | relative_url }}" alt="Infográfico em duas partes. A primeira mostra o ciclo em cinco cards: perceber (harness monta a janela), decidir (modelo responde uma vez, pedindo tool ou entregando texto final), agir (harness executa a ferramenta), observar (harness devolve o resultado para a janela) e reavaliar (harness dá outra volta ou para por um critério explícito), com seta de retorno indicando que a volta recomeça com a janela maior do que antes. A segunda parte mostra seis barras horizontais empilhadas, onde a parte cinza é a porção fixa (prompt e tools) e a laranja é o histórico acumulado que cresce a cada volta. Na volta 1 o custo é 1,0 vezes; na volta 6 chega a 4,0 vezes. Um selo destaca que as seis voltas somam cerca de 14 vezes a primeira chamada. Uma legenda indica que as proporções são ilustrativas mas o formato da curva não é.">
+  <figcaption>Quatro dos cinco passos são o seu código. O modelo aparece uma vez, responde e sai. E a janela — e o custo — cresce a cada volta.</figcaption>
+</figure>
+
 ## 2. "Parar quando necessário" não é um critério
 
 Essa frase aparece em quase todo prompt que eu já li de agente que deu errado, incluindo os meus.
@@ -83,19 +88,19 @@ Rede de proteção é obrigatória: sempre configure um teto absoluto. Mas ela �
 
 Aqui entra o guia que mais mudou a forma como eu desenho isso. O **12-Factor Agents**, do Dex Horthy, pega a ideia dos doze fatores de aplicações em nuvem e escreve o equivalente para agentes. São doze princípios sobre o que você deve controlar em vez de terceirizar.
 
-Cinco deles são do assunto de hoje. Vale conhecer pelo nome, porque aparecem em discussão técnica:
+Cinco deles são do assunto de hoje. Vale conhecer pelo nome, porque aparecem em discussão técnica. Vou apresentar na ordem que faz sentido para entender o conjunto:
 
-**Fator 8 — Own your control flow (seja dono do seu fluxo de controle).** O coração do guia. A decisão de quando parar, pausar, repetir ou escalar é regra de negócio, e regra de negócio é sua. Quando ela está escondida no `while` interno de um framework, você não consegue nem explicar o comportamento do sistema numa reunião, muito menos mudá-lo. O loop tem umas dez linhas de código: escreva as dez linhas.
+**Fator 6 — Launch/Pause/Resume (lançar, pausar e retomar).** Esse é o fator que separa brinquedo de sistema. Um agente de produção precisa parar esperando um humano e continuar depois — três horas depois, ou três dias depois, sem o processo ficar aberto na memória de um servidor. Na prática, exige que o estado do agente seja persistido fora do processo. É o que o LangGraph faz com `interrupt()` mais um *checkpointer* durável, e o que o Microsoft Agent Framework faz com `RequestInfoExecutor` e checkpoints no fim de cada etapa.
 
-**Fator 7 — Contact humans with tool calls (contatar humanos é uma tool).** Isso é mais bonito do que parece. Pedir aprovação não é uma exceção, um erro ou um `if` no fim do código: é uma ação como qualquer outra, com nome (`escalar_excecao`), parâmetros e registro. O agente "chama o humano" do mesmo jeito que chamaria o banco de dados. O ganho é prático: pedido de ajuda vira algo que você mede, versiona e melhora, em vez de algo que acontece.
+**Fator 7 — Contact humans with tool calls (contatar humanos é uma tool).** Isso é mais bonito do que parece. Pedir aprovação não é uma exceção, um erro ou um `if` no fim do código: é uma ação como qualquer outra, com nome (`escalar_excecao`), parâmetros e registro. O agente "chama o humano" do mesmo jeito que chamaria o banco de dados. O ganho é prático: pedido de ajuda vira algo que você mede, versiona e melhora, em vez de algo que simplesmente acontece.
+
+Repare como os fatores 6 e 7 se completam. O 7 diz que pedir ajuda é uma ação; o 6 diz que o sistema precisa sobreviver à espera. Juntos, eles transformam "o agente não consegue decidir isso" de falha em comportamento previsto.
+
+**Fator 8 — Own your control flow (seja dono do seu fluxo de controle).** O coração do guia. A decisão de quando parar, pausar, repetir ou escalar é regra de negócio, e regra de negócio é sua. Quando ela está escondida no `while` interno de um framework, você não consegue nem explicar o comportamento do sistema numa reunião, muito menos mudá-lo. O loop tem umas dez linhas de código: escreva as dez linhas. Os fatores 6 e 7 só funcionam porque o 8 está em vigor: você não pode pausar com propósito nem escalar com registro se a decisão de quando fazer isso está buried dentro de uma abstração que você não controla.
 
 **Fator 9 — Compact errors into the context window (compacte erros na janela).** Quando uma ferramenta falha, não jogue o stack trace de 300 linhas na janela. Devolva um erro curto e acionável: *"CNPJ não encontrado na base de clientes; tente buscar pelo nome"*. Duas razões. A primeira é token. A segunda é melhor: erro bem escrito é instrução. Ele diz ao modelo o que tentar em seguida, e o agente se recupera sozinho. Só cuide para que falha repetida tenha teto — senão, vira o loop improdutivo do critério 4.
 
 **Fator 10 — Small, focused agents (agentes pequenos e focados).** Três agentes com cinco ferramentas cada são melhores do que um agente com quinze. O motivo é o do Dia 4: cada tool a mais é texto na janela e uma decisão a mais a tomar. Agente pequeno você consegue testar, entender quando erra e trocar sem mexer no resto.
-
-**Fator 6 — Launch/Pause/Resume (lançar, pausar e retomar).** Esse é o fator que separa brinquedo de sistema. Um agente de produção precisa parar esperando um humano e continuar depois — três horas depois, ou três dias depois, sem o processo ficar aberto na memória de um servidor. Na prática, exige que o estado do agente seja persistido fora do processo. É o que o LangGraph faz com `interrupt()` mais um *checkpointer* durável, e o que o Microsoft Agent Framework faz com `RequestInfoExecutor` e checkpoints no fim de cada etapa.
-
-Repare como o 6 e o 7 se completam. O fator 7 diz que pedir ajuda é uma ação; o 6 diz que o sistema precisa sobreviver à espera. Juntos, eles transformam "o agente não consegue decidir isso" de falha em comportamento previsto.
 
 ## 4. O graph: desenhar quem decide o quê
 
@@ -197,20 +202,12 @@ Pegue um processo que você quer automatizar e faça duas coisas, no papel mesmo
 - **Os quatro:** objetivo atingido **e verificado**, orçamento esgotado, pedido de ajuda humana, loop improdutivo. O quarto é o mais esquecido e o que mais queima dinheiro.
 - **Cada parada precisa de destino** — e orçamento esgotado tem que salvar o progresso parcial.
 - **O teto do framework é disjuntor, não desenho.** Parar no `recursion_limit` significa que faltou condição de parada.
-- **12-Factor Agents:** seja dono do fluxo de controle (8), contatar humano é uma tool (7), compacte erros na janela (9), agentes pequenos e focados (10), lançar/pausar/retomar (6).
+- **12-Factor Agents:** lançar/pausar/retomar (6), contatar humano é uma tool (7), seja dono do fluxo de controle (8), compacte erros na janela (9), agentes pequenos e focados (10).
 - **Graph é marcar quem decide em cada nó:** código, LLM ou humano. É também a melhor ferramenta de conversa com quem opera o processo.
 - **O caminho feliz é código.** O LLM entra nos 20% de exceção que consomem 80% do esforço.
 - **Quem gera não avalia.** Modelo é condescendente consigo mesmo; use regra determinística, prompt separado ou outro modelo.
 - **Multi-agente custa ~15× um chat.** Só para tarefa ampla, paralelizável e de alto valor. Processo repetitivo pede workflow com agente focado no ponto de ambiguidade.
 - **Os quatro critérios também servem para você.** Quem está dentro do loop é a pior pessoa para decidir se ele já acabou.
-
-## Frases para levar para a reunião
-
-> "Qual é o critério de parada? Eu quero números, não adjetivos."
-
-> "Eu colocaria LLM só no ramo de exceção. O caminho feliz é código."
-
-> "Quem avalia não deveria ser quem gera."
 
 ## Fontes
 
