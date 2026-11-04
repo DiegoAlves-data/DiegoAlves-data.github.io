@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="520" fill="#ffffff"/>
+  <text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">O agente da conciliação, ligado por MCP</text>
+  <text x="30" y="58" font-size="14" fill="#475569">Um host, um client por conexão, um server por sistema. Cada server expõe até três tipos de coisa.</text>
+
+  <!-- host -->
+  <rect x="30" y="85" width="290" height="370" rx="12" fill="#f8fafc" stroke="#0f172a" stroke-width="1.5"/>
+  <text x="50" y="112" font-size="15" font-weight="700" fill="#0f172a">Host</text>
+  <text x="50" y="131" font-size="12" fill="#475569">a aplicação: o agente de conciliação</text>
+  <rect x="50" y="148" width="250" height="56" rx="8" fill="#0f172a"/>
+  <text x="66" y="172" font-size="14" font-weight="700" fill="#ffffff">Modelo</text>
+  <text x="66" y="191" font-size="12" fill="#cbd5e1">escolhe qual tool chamar</text>
+  <g font-size="13">
+    <rect x="50" y="228" width="250" height="44" rx="8" fill="#ffffff" stroke="#94a3b8"/><text x="66" y="255" fill="#0f172a">client 1 · conexão com o banco</text>
+    <rect x="50" y="300" width="250" height="44" rx="8" fill="#ffffff" stroke="#94a3b8"/><text x="66" y="327" fill="#0f172a">client 2 · conexão com o ERP</text>
+    <rect x="50" y="372" width="250" height="44" rx="8" fill="#ffffff" stroke="#94a3b8"/><text x="66" y="399" fill="#0f172a">client 3 · conexão com o time</text>
+  </g>
+
+  <g stroke="#64748b" stroke-width="1.5" fill="none">
+    <line x1="300" y1="250" x2="398" y2="135" marker-end="url(#a)"/>
+    <line x1="300" y1="322" x2="398" y2="265" marker-end="url(#a)"/>
+    <line x1="300" y1="394" x2="398" y2="395" marker-end="url(#a)"/>
+  </g>
+
+  <!-- servers -->
+  <g font-size="12">
+    <rect x="400" y="85" width="570" height="110" rx="10" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="418" y="109" font-size="14" font-weight="700" fill="#0f172a">Server do banco</text><text x="560" y="109" fill="#475569">remoto, por HTTP</text>
+    <rect x="418" y="122" width="200" height="58" rx="6" fill="#0f172a"/><text x="430" y="142" font-weight="700" fill="#ffffff">tools</text><text x="430" y="162" fill="#cbd5e1">banco_buscar_lancamentos</text>
+    <rect x="630" y="122" width="160" height="58" rx="6" fill="#ffffff" stroke="#94a3b8"/><text x="642" y="142" font-weight="700" fill="#0f172a">resources</text><text x="642" y="162" fill="#475569">extrato do mês</text>
+    <rect x="802" y="122" width="150" height="58" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-dasharray="4 3"/><text x="814" y="142" font-weight="700" fill="#94a3b8">prompts</text><text x="814" y="162" fill="#94a3b8">nenhum</text>
+
+    <rect x="400" y="215" width="570" height="110" rx="10" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="418" y="239" font-size="14" font-weight="700" fill="#0f172a">Server do ERP</text><text x="545" y="239" fill="#475569">remoto, por HTTP</text>
+    <rect x="418" y="252" width="200" height="58" rx="6" fill="#0f172a"/><text x="430" y="272" font-weight="700" fill="#ffffff">tools</text><text x="430" y="290" fill="#cbd5e1">erp_buscar_cobrancas</text><text x="430" y="304" fill="#cbd5e1">conciliacao_propor</text>
+    <rect x="630" y="252" width="160" height="58" rx="6" fill="#ffffff" stroke="#94a3b8"/><text x="642" y="272" font-weight="700" fill="#0f172a">resources</text><text x="642" y="292" fill="#475569">contrato e regras</text>
+    <rect x="802" y="252" width="150" height="58" rx="6" fill="#fff7ed" stroke="#fdba74"/><text x="814" y="272" font-weight="700" fill="#c2410c">prompts</text><text x="814" y="292" fill="#9a3412">fechamento mensal</text>
+
+    <rect x="400" y="345" width="570" height="110" rx="10" fill="#f1f5f9" stroke="#94a3b8"/>
+    <text x="418" y="369" font-size="14" font-weight="700" fill="#0f172a">Server da fila de exceções</text><text x="620" y="369" fill="#475569">local, por stdio</text>
+    <rect x="418" y="382" width="200" height="58" rx="6" fill="#0f172a"/><text x="430" y="402" font-weight="700" fill="#ffffff">tools</text><text x="430" y="422" fill="#cbd5e1">humano_escalar_excecao</text>
+    <rect x="630" y="382" width="160" height="58" rx="6" fill="#ffffff" stroke="#94a3b8"/><text x="642" y="402" font-weight="700" fill="#0f172a">resources</text><text x="642" y="422" fill="#475569">fila em aberto</text>
+    <rect x="802" y="382" width="150" height="58" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-dasharray="4 3"/><text x="814" y="402" font-weight="700" fill="#94a3b8">prompts</text><text x="814" y="422" fill="#94a3b8">nenhum</text>
+  </g>
+
+  <!-- legenda -->
+  <g font-size="12">
+    <text x="30" y="492" font-weight="700" fill="#0f172a">Quem decide usar:</text>
+    <rect x="168" y="480" width="14" height="14" rx="3" fill="#0f172a"/><text x="190" y="492" fill="#475569">tools → o modelo</text>
+    <rect x="318" y="480" width="14" height="14" rx="3" fill="#ffffff" stroke="#94a3b8"/><text x="340" y="492" fill="#475569">resources → a aplicação</text>
+    <rect x="498" y="480" width="14" height="14" rx="3" fill="#fff7ed" stroke="#fdba74"/><text x="520" y="492" fill="#475569">prompts → o usuário</text>
+  </g>
+</svg>
