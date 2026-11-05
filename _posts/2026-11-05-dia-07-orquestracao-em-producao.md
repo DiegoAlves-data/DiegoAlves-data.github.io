@@ -408,3 +408,4 @@ Por fim, responda as dez perguntas abaixo. Elas são, na prática, a pauta da pr
 - [Lei Geral de Proteção de Dados (Lei 13.709/2018)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) — artigos 6º (necessidade e segurança) e 46 (medidas de segurança).
 
 **[→ Acompanhe os próximos artigos](/blog/)**
+
