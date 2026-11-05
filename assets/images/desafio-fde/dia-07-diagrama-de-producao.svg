@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <marker id="o" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="500" fill="#ffffff"/>
+  <text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">O agente da conciliação em produção</text>
+  <text x="30" y="58" font-size="14" fill="#475569">Em cinza, o caminho feliz. Em laranja, o que acontece quando alguma coisa falha.</text>
+
+  <g font-size="12">
+    <rect x="30" y="100" width="136" height="72" rx="8" fill="#f1f5f9" stroke="#94a3b8"/><text x="42" y="126" fill="#0f172a" font-weight="700">1 · gatilho</text><text x="42" y="145" fill="#475569">webhook de PIX</text><text x="42" y="160" fill="#475569">ou agenda (1h)</text>
+    <rect x="192" y="100" width="136" height="72" rx="8" fill="#0f172a"/><text x="204" y="126" fill="#ffffff" font-weight="700">2 · fila</text><text x="204" y="145" fill="#cbd5e1">lançamentos</text><text x="204" y="160" fill="#cbd5e1">esperando a vez</text>
+    <rect x="354" y="100" width="136" height="72" rx="8" fill="#0f172a"/><text x="366" y="126" fill="#ffffff" font-weight="700">3 · worker</text><text x="366" y="145" fill="#cbd5e1">o agente: graph</text><text x="366" y="160" fill="#cbd5e1">do Dia 5</text>
+    <rect x="516" y="100" width="136" height="72" rx="8" fill="#f1f5f9" stroke="#94a3b8"/><text x="528" y="126" fill="#0f172a" font-weight="700">4 · tools</text><text x="528" y="145" fill="#475569">banco, ERP, LLM</text><text x="528" y="160" fill="#475569">(Dia 6)</text>
+    <rect x="678" y="100" width="136" height="72" rx="8" fill="#f1f5f9" stroke="#94a3b8"/><text x="690" y="126" fill="#0f172a" font-weight="700">5 · validador</text><text x="690" y="145" fill="#475569">regras do cliente,</text><text x="690" y="160" fill="#475569">em código</text>
+    <rect x="840" y="100" width="136" height="72" rx="8" fill="#f1f5f9" stroke="#0f172a" stroke-width="1.5"/><text x="852" y="126" fill="#0f172a" font-weight="700">6 · registro</text><text x="852" y="145" fill="#475569">proposta gravada</text><text x="852" y="160" fill="#475569">com rastro</text>
+  </g>
+  <g stroke="#64748b" stroke-width="1.5">
+    <line x1="166" y1="136" x2="190" y2="136" marker-end="url(#a)"/>
+    <line x1="328" y1="136" x2="352" y2="136" marker-end="url(#a)"/>
+    <line x1="490" y1="136" x2="514" y2="136" marker-end="url(#a)"/>
+    <line x1="652" y1="136" x2="676" y2="136" marker-end="url(#a)"/>
+    <line x1="814" y1="136" x2="838" y2="136" marker-end="url(#a)"/>
+  </g>
+
+  <g stroke="#c2410c" stroke-width="1.5" stroke-dasharray="5 4" fill="none">
+    <line x1="260" y1="172" x2="260" y2="252"/>
+    <line x1="422" y1="172" x2="422" y2="252"/>
+    <line x1="584" y1="172" x2="584" y2="252"/>
+    <line x1="746" y1="172" x2="746" y2="252" marker-end="url(#o)"/>
+    <line x1="420" y1="300" x2="420" y2="350" marker-end="url(#o)"/>
+    <line x1="540" y1="378" x2="598" y2="378" marker-end="url(#o)"/>
+    <line x1="908" y1="250" x2="908" y2="176" marker-end="url(#o)"/>
+  </g>
+  <g font-size="12" fill="#c2410c">
+    <text x="268" y="214">pico do dia 5?</text>
+    <text x="430" y="214">timeout?</text>
+    <text x="592" y="206">API fora?</text><text x="592" y="222">limite (429)?</text>
+    <text x="754" y="206">inválido, dúvida</text><text x="754" y="222">ou &gt; R$ 5 mil?</text>
+    <text x="916" y="218">aprovado</text>
+    <text x="428" y="330">falhou N vezes</text>
+  </g>
+
+  <g font-size="12">
+    <rect x="230" y="252" width="380" height="48" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="244" y="273" fill="#c2410c" font-weight="700">retry com backoff e jitter</text>
+    <text x="244" y="290" fill="#9a3412">espera 1s, 2s, 4s, 8s... e o item volta para a fila</text>
+    <rect x="660" y="252" width="316" height="48" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="674" y="273" fill="#c2410c" font-weight="700">human-in-the-loop</text>
+    <text x="674" y="290" fill="#9a3412">uma pessoa aprova, corrige ou decide</text>
+    <rect x="300" y="350" width="240" height="56" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="314" y="373" fill="#c2410c" font-weight="700">dead letter queue (DLQ)</text>
+    <text x="314" y="392" fill="#9a3412">o que não deu certo fica guardado</text>
+    <rect x="600" y="350" width="220" height="56" rx="8" fill="#0f172a"/>
+    <text x="614" y="373" fill="#ffffff" font-weight="700">humano investiga</text>
+    <text x="614" y="392" fill="#cbd5e1">alarme, causa, reprocessa</text>
+  </g>
+
+  <text x="30" y="456" font-size="13" fill="#0f172a" font-weight="700">A regra do desenho:</text>
+  <text x="186" y="456" font-size="13" fill="#475569">todo lançamento termina em um de três lugares. Registrado, nas mãos de uma pessoa ou na DLQ.</text>
+  <text x="186" y="476" font-size="13" fill="#475569">Nenhum some em silêncio.</text>
+</svg>

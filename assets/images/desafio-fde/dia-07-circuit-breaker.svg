@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="380" fill="#ffffff"/>
+  <text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">Circuit breaker: o disjuntor entre o agente e a API do banco</text>
+  <text x="30" y="58" font-size="14" fill="#475569">Três estados. O agente para de chamar um sistema caído e testa, de tempos em tempos, se ele voltou.</text>
+
+  <g font-size="12">
+    <rect x="40" y="120" width="240" height="96" rx="10" fill="#f1f5f9" stroke="#0f172a" stroke-width="1.5"/>
+    <text x="58" y="148" font-size="15" fill="#0f172a" font-weight="700">Fechado</text>
+    <text x="58" y="170" fill="#475569">as chamadas passam normalmente</text>
+    <text x="58" y="188" fill="#475569">e as falhas são contadas</text>
+
+    <rect x="380" y="120" width="240" height="96" rx="10" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="398" y="148" font-size="15" fill="#c2410c" font-weight="700">Aberto</text>
+    <text x="398" y="170" fill="#9a3412">nem tenta chamar: falha na hora</text>
+    <text x="398" y="188" fill="#9a3412">e devolve o item para a fila</text>
+    <text x="398" y="206" fill="#9a3412">com atraso</text>
+
+    <rect x="720" y="120" width="240" height="96" rx="10" fill="#0f172a"/>
+    <text x="738" y="148" font-size="15" fill="#ffffff" font-weight="700">Meio-aberto</text>
+    <text x="738" y="170" fill="#cbd5e1">deixa passar uma chamada</text>
+    <text x="738" y="188" fill="#cbd5e1">de teste</text>
+  </g>
+
+  <g stroke="#64748b" stroke-width="1.5" fill="none">
+    <line x1="280" y1="146" x2="378" y2="146" marker-end="url(#a)"/>
+    <line x1="620" y1="146" x2="718" y2="146" marker-end="url(#a)"/>
+    <line x1="718" y1="196" x2="622" y2="196" marker-end="url(#a)"/>
+    <path d="M840,216 L840,292 L160,292 L160,218" marker-end="url(#a)"/>
+  </g>
+  <g font-size="12" fill="#0f172a">
+    <text x="330" y="118" text-anchor="middle">5 falhas</text><text x="330" y="136" text-anchor="middle">seguidas</text>
+    <text x="670" y="136" text-anchor="middle">após 30 s</text>
+    <text x="670" y="216" text-anchor="middle">teste falhou</text>
+    <text x="380" y="284">o teste deu certo: volta ao normal</text>
+  </g>
+
+  <text x="30" y="340" font-size="13" fill="#0f172a" font-weight="700">Por que importa:</text>
+  <text x="148" y="340" font-size="13" fill="#475569">sem disjuntor, 100 workers martelam a API caída e atrapalham a volta dela. Com ele, o agente espera</text>
+  <text x="148" y="360" font-size="13" fill="#475569">sem gastar token, e o resto do processo continua. Os números (5 falhas, 30 s) são exemplo: cada cliente calibra.</text>
+</svg>

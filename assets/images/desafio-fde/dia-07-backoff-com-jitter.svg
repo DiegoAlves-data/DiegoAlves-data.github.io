@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1000" height="470" fill="#ffffff"/>
+<text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">Backoff espera cada vez mais. O jitter espalha quem espera.</text>
+<text x="30" y="58" font-size="14" fill="#475569">A API do banco cai e 100 workers falham juntos. Quando ela volta, em que segundo cada um tenta de novo?</text>
+<text x="30" y="102" font-size="14" font-weight="700" fill="#0f172a">Sem jitter</text>
+<line x1="70" y1="230" x2="950" y2="230" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="70" y="246" font-size="11" fill="#475569" text-anchor="middle">0s</text>
+<text x="125" y="246" font-size="11" fill="#475569" text-anchor="middle">1s</text>
+<text x="180" y="246" font-size="11" fill="#475569" text-anchor="middle">2s</text>
+<text x="290" y="246" font-size="11" fill="#475569" text-anchor="middle">4s</text>
+<text x="510" y="246" font-size="11" fill="#475569" text-anchor="middle">8s</text>
+<text x="950" y="246" font-size="11" fill="#475569" text-anchor="middle">16s</text>
+<line x1="70" y1="190" x2="950" y2="190" stroke="#0f172a" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="950" y="184" font-size="11" fill="#0f172a" text-anchor="end">o que a API aguenta</text>
+<rect x="125" y="130" width="12" height="100" fill="#c2410c"/>
+<text x="141" y="140" font-size="11" fill="#c2410c">100</text>
+<rect x="180" y="145" width="12" height="85" fill="#c2410c"/>
+<text x="196" y="155" font-size="11" fill="#c2410c">85</text>
+<rect x="290" y="160" width="12" height="70" fill="#c2410c"/>
+<text x="306" y="170" font-size="11" fill="#c2410c">70</text>
+<rect x="510" y="175" width="12" height="55" fill="#c2410c"/>
+<text x="526" y="185" font-size="11" fill="#c2410c">55</text>
+<text x="565" y="150" font-size="12" fill="#9a3412">as tentativas chegam todas no mesmo instante,</text>
+<text x="565" y="166" font-size="12" fill="#9a3412">derrubam a API de novo e quase ninguém passa</text>
+<text x="30" y="282" font-size="14" font-weight="700" fill="#0f172a">Com jitter</text>
+<line x1="70" y1="410" x2="950" y2="410" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="70" y="426" font-size="11" fill="#475569" text-anchor="middle">0s</text>
+<text x="125" y="426" font-size="11" fill="#475569" text-anchor="middle">1s</text>
+<text x="180" y="426" font-size="11" fill="#475569" text-anchor="middle">2s</text>
+<text x="290" y="426" font-size="11" fill="#475569" text-anchor="middle">4s</text>
+<text x="510" y="426" font-size="11" fill="#475569" text-anchor="middle">8s</text>
+<text x="950" y="426" font-size="11" fill="#475569" text-anchor="middle">16s</text>
+<line x1="70" y1="370" x2="950" y2="370" stroke="#0f172a" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="950" y="364" font-size="11" fill="#0f172a" text-anchor="end">o que a API aguenta</text>
+<rect x="70.0" y="379" width="12" height="31" fill="#0f172a"/>
+<rect x="83.75" y="379" width="12" height="31" fill="#0f172a"/>
+<rect x="97.5" y="371" width="12" height="39" fill="#0f172a"/>
+<rect x="111.25" y="376" width="12" height="34" fill="#0f172a"/>
+<rect x="125.0" y="394" width="12" height="16" fill="#0f172a"/>
+<rect x="138.75" y="400" width="12" height="10" fill="#0f172a"/>
+<rect x="152.5" y="399" width="12" height="11" fill="#0f172a"/>
+<rect x="166.25" y="400" width="12" height="10" fill="#0f172a"/>
+<rect x="180.0" y="405" width="12" height="5" fill="#0f172a"/>
+<rect x="193.75" y="403" width="12" height="7" fill="#0f172a"/>
+<rect x="207.5" y="397" width="12" height="13" fill="#0f172a"/>
+<rect x="221.25" y="406" width="12" height="4" fill="#0f172a"/>
+<rect x="235.0" y="407" width="12" height="3" fill="#0f172a"/>
+<rect x="248.75" y="402" width="12" height="8" fill="#0f172a"/>
+<rect x="262.5" y="405" width="12" height="5" fill="#0f172a"/>
+<rect x="276.25" y="407" width="12" height="3" fill="#0f172a"/>
+<rect x="290.0" y="403" width="12" height="7" fill="#0f172a"/>
+<rect x="303.75" y="405" width="12" height="5" fill="#0f172a"/>
+<rect x="317.5" y="403" width="12" height="7" fill="#0f172a"/>
+<rect x="331.25" y="404" width="12" height="6" fill="#0f172a"/>
+<rect x="345.0" y="407" width="12" height="3" fill="#0f172a"/>
+<rect x="358.75" y="406" width="12" height="4" fill="#0f172a"/>
+<rect x="372.5" y="406" width="12" height="4" fill="#0f172a"/>
+<rect x="400.0" y="407" width="12" height="3" fill="#0f172a"/>
+<rect x="413.75" y="408" width="12" height="2" fill="#0f172a"/>
+<rect x="427.5" y="406" width="12" height="4" fill="#0f172a"/>
+<rect x="441.25" y="404" width="12" height="6" fill="#0f172a"/>
+<rect x="455.0" y="409" width="12" height="1" fill="#0f172a"/>
+<rect x="468.75" y="409" width="12" height="1" fill="#0f172a"/>
+<rect x="482.5" y="409" width="12" height="1" fill="#0f172a"/>
+<rect x="496.25" y="407" width="12" height="3" fill="#0f172a"/>
+<rect x="510.0" y="409" width="12" height="1" fill="#0f172a"/>
+<rect x="523.75" y="408" width="12" height="2" fill="#0f172a"/>
+<rect x="537.5" y="408" width="12" height="2" fill="#0f172a"/>
+<rect x="551.25" y="409" width="12" height="1" fill="#0f172a"/>
+<rect x="565.0" y="407" width="12" height="3" fill="#0f172a"/>
+<rect x="578.75" y="408" width="12" height="2" fill="#0f172a"/>
+<rect x="620.0" y="409" width="12" height="1" fill="#0f172a"/>
+<rect x="647.5" y="409" width="12" height="1" fill="#0f172a"/>
+<rect x="661.25" y="408" width="12" height="2" fill="#0f172a"/>
+<rect x="675.0" y="408" width="12" height="2" fill="#0f172a"/>
+<rect x="688.75" y="409" width="12" height="1" fill="#0f172a"/>
+<rect x="702.5" y="409" width="12" height="1" fill="#0f172a"/>
+<rect x="716.25" y="409" width="12" height="1" fill="#0f172a"/>
+<rect x="730.0" y="409" width="12" height="1" fill="#0f172a"/>
+<rect x="743.75" y="409" width="12" height="1" fill="#0f172a"/>
+<rect x="771.25" y="409" width="12" height="1" fill="#0f172a"/>
+<text x="565" y="330" font-size="12" fill="#475569">cada worker sorteia quando tentar dentro da janela:</text>
+<text x="565" y="346" font-size="12" fill="#475569">a carga se espalha e a API consegue voltar</text>
+<text x="30" y="458" font-size="12" fill="#475569">Ilustrativo. Cada barra é o número de chamadas em 250 ms. O padrão vem do estudo de Marc Brooker na AWS (2015).</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1000" height="400" fill="#ffffff"/>
+<text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">Onde está o dinheiro: quase nunca no token</text>
+<text x="30" y="58" font-size="14" fill="#475569">6 mil lançamentos por mês. Custo mensal em reais, com preços e salário hipotéticos.</text>
+<text x="228" y="122" font-size="13" fill="#0f172a" text-anchor="end" font-weight="700">Tudo manual</text>
+<rect x="240.0" y="100" width="640.0" height="34" fill="#c2410c"/>
+<text x="888.0" y="115" font-size="13" fill="#0f172a" font-weight="700">R$ 36.000</text>
+<text x="888.0" y="131" font-size="11" fill="#475569">400 h de gente</text>
+<text x="228" y="184" font-size="13" fill="#0f172a" text-anchor="end" font-weight="700">Agente, 30% escalados</text>
+<rect x="240" y="162" width="60.4" height="34" fill="#0f172a"/>
+<rect x="300.4" y="162" width="192.0" height="34" fill="#c2410c"/>
+<text x="500.4" y="177" font-size="13" fill="#0f172a" font-weight="700">R$ 14.200</text>
+<text x="500.4" y="193" font-size="11" fill="#475569">120 h de revisão</text>
+<text x="228" y="246" font-size="13" fill="#0f172a" text-anchor="end" font-weight="700">Agente, 10% escalados</text>
+<rect x="240" y="224" width="60.4" height="34" fill="#0f172a"/>
+<rect x="300.4" y="224" width="64.0" height="34" fill="#c2410c"/>
+<text x="372.4" y="239" font-size="13" fill="#0f172a" font-weight="700">R$ 7.000</text>
+<text x="372.4" y="255" font-size="11" fill="#475569">40 h de revisão</text>
+<text x="228" y="308" font-size="13" fill="#0f172a" text-anchor="end" font-weight="700">Agente, 3% escalados</text>
+<rect x="240" y="286" width="60.4" height="34" fill="#0f172a"/>
+<rect x="300.4" y="286" width="19.2" height="34" fill="#c2410c"/>
+<text x="327.6" y="301" font-size="13" fill="#0f172a" font-weight="700">R$ 4.480</text>
+<text x="327.6" y="317" font-size="11" fill="#475569">12 h de revisão</text>
+<rect x="240" y="349" width="14" height="14" fill="#0f172a"/><text x="260" y="360" font-size="12" fill="#475569">modelo (~R$ 3,4 mil, fixo)</text>
+<rect x="440" y="349" width="14" height="14" fill="#c2410c"/><text x="460" y="360" font-size="12" fill="#475569">tempo de pessoa a R$ 90/h, 4 min por revisão</text>
+<text x="30" y="388" font-size="12" fill="#475569">Modelo: 4 passos × (6 mil tokens de entrada a US$ 3/milhão + 500 de saída a US$ 15/milhão) ≈ US$ 0,10 por lançamento, câmbio de R$ 5,50.</text>
+</svg>
