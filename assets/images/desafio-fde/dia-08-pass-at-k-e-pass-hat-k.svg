@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 510" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1000" height="510" fill="#ffffff"/>
+<text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">pass@k e pass^k: a mesma taxa de acerto, duas conclusões opostas</text>
+<text x="30" y="58" font-size="14" fill="#475569">Agente que acerta 90% das vezes por tentativa. No eixo horizontal, o número de tentativas (k) da mesma tarefa.</text>
+<line x1="115" y1="368.0" x2="945" y2="368.0" stroke="#e2e8f0"/>
+<text x="105" y="372.0" font-size="11" fill="#475569" text-anchor="end">0%</text>
+<line x1="115" y1="301.0" x2="945" y2="301.0" stroke="#e2e8f0"/>
+<text x="105" y="305.0" font-size="11" fill="#475569" text-anchor="end">25%</text>
+<line x1="115" y1="234.0" x2="945" y2="234.0" stroke="#e2e8f0"/>
+<text x="105" y="238.0" font-size="11" fill="#475569" text-anchor="end">50%</text>
+<line x1="115" y1="167.0" x2="945" y2="167.0" stroke="#e2e8f0"/>
+<text x="105" y="171.0" font-size="11" fill="#475569" text-anchor="end">75%</text>
+<line x1="115" y1="100.0" x2="945" y2="100.0" stroke="#e2e8f0"/>
+<text x="105" y="104.0" font-size="11" fill="#475569" text-anchor="end">100%</text>
+<text x="115.0" y="390" font-size="11" fill="#475569" text-anchor="middle">k=1</text>
+<text x="207.22222222222223" y="390" font-size="11" fill="#475569" text-anchor="middle">k=2</text>
+<text x="299.44444444444446" y="390" font-size="11" fill="#475569" text-anchor="middle">k=3</text>
+<text x="391.6666666666667" y="390" font-size="11" fill="#475569" text-anchor="middle">k=4</text>
+<text x="483.8888888888889" y="390" font-size="11" fill="#475569" text-anchor="middle">k=5</text>
+<text x="576.1111111111111" y="390" font-size="11" fill="#475569" text-anchor="middle">k=6</text>
+<text x="668.3333333333334" y="390" font-size="11" fill="#475569" text-anchor="middle">k=7</text>
+<text x="760.5555555555555" y="390" font-size="11" fill="#475569" text-anchor="middle">k=8</text>
+<text x="852.7777777777778" y="390" font-size="11" fill="#475569" text-anchor="middle">k=9</text>
+<text x="945.0" y="390" font-size="11" fill="#475569" text-anchor="middle">k=10</text>
+<polyline fill="none" stroke="#0f766e" stroke-width="3" points="115.0,126.8 207.2,102.7 299.4,100.3 391.7,100.0 483.9,100.0 576.1,100.0 668.3,100.0 760.6,100.0 852.8,100.0 945.0,100.0"/>
+<polyline fill="none" stroke="#c2410c" stroke-width="3" points="115.0,126.8 207.2,150.9 299.4,172.6 391.7,192.2 483.9,209.7 576.1,225.6 668.3,239.8 760.6,252.6 852.8,264.2 945.0,274.6"/>
+<circle cx="115.0" cy="126.8" r="4" fill="#0f766e"/>
+<circle cx="207.2" cy="102.7" r="4" fill="#0f766e"/>
+<circle cx="299.4" cy="100.3" r="4" fill="#0f766e"/>
+<circle cx="391.7" cy="100.0" r="4" fill="#0f766e"/>
+<circle cx="483.9" cy="100.0" r="4" fill="#0f766e"/>
+<circle cx="576.1" cy="100.0" r="4" fill="#0f766e"/>
+<circle cx="668.3" cy="100.0" r="4" fill="#0f766e"/>
+<circle cx="760.6" cy="100.0" r="4" fill="#0f766e"/>
+<circle cx="852.8" cy="100.0" r="4" fill="#0f766e"/>
+<circle cx="945.0" cy="100.0" r="4" fill="#0f766e"/>
+<circle cx="115.0" cy="126.8" r="4" fill="#c2410c"/>
+<circle cx="207.2" cy="150.9" r="4" fill="#c2410c"/>
+<circle cx="299.4" cy="172.6" r="4" fill="#c2410c"/>
+<circle cx="391.7" cy="192.2" r="4" fill="#c2410c"/>
+<circle cx="483.9" cy="209.7" r="4" fill="#c2410c"/>
+<circle cx="576.1" cy="225.6" r="4" fill="#c2410c"/>
+<circle cx="668.3" cy="239.8" r="4" fill="#c2410c"/>
+<circle cx="760.6" cy="252.6" r="4" fill="#c2410c"/>
+<circle cx="852.8" cy="264.2" r="4" fill="#c2410c"/>
+<circle cx="945.0" cy="274.6" r="4" fill="#c2410c"/>
+<text x="483.8888888888889" y="84.0" font-size="13" font-weight="700" fill="#0f766e">pass@k — basta acertar uma vez</text>
+<text x="503.8888888888889" y="271.52" font-size="13" font-weight="700" fill="#c2410c">pass^k — precisa acertar todas</text>
+<rect x="30" y="402" width="520" height="78" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="48" y="426" font-size="13" font-weight="700" fill="#0f172a">Quem escolhe a métrica é o modo de uso, não o modelo.</text>
+<text x="48" y="448" font-size="12" fill="#475569">Humano escolhendo a melhor saída entre k → pass@k.</text>
+<text x="48" y="468" font-size="12" fill="#475569">Agente agindo sozinho, k vezes seguidas → pass^k.</text>
+<rect x="570" y="402" width="375" height="78" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+<text x="588" y="426" font-size="13" font-weight="700" fill="#9a3412">Em k=8:  pass^8 = 0,9⁸ = 43%</text>
+<text x="588" y="448" font-size="12" fill="#9a3412">o agente "de 90%" tropeça em mais</text>
+<text x="588" y="468" font-size="12" fill="#9a3412">da metade das séries de 8 tarefas</text>
+</svg>

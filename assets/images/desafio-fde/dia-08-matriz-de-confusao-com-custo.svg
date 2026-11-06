@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1000" height="540" fill="#ffffff"/>
+<text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">Nem todo erro custa igual</text>
+<text x="30" y="58" font-size="14" fill="#475569">A decisão "conciliar ou escalar" é um classificador. E a matriz dele é torta.</text>
+<text x="455.0" y="108" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">O certo era CONCILIAR</text>
+<text x="785.0" y="108" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">O certo era ESCALAR</text>
+<text x="290" y="201.0" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">O agente</text>
+<text x="290" y="219.0" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">CONCILIOU</text>
+<text x="290" y="371.0" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">O agente</text>
+<text x="290" y="389.0" font-size="13" font-weight="700" fill="#0f172a" text-anchor="end">ESCALOU</text>
+<rect x="300" y="130" width="310" height="150" rx="8" fill="#f0fdfa" stroke="#5eead4"/>
+<text x="318" y="160" font-size="13" font-weight="700" fill="#0f766e">Verdadeiro positivo</text>
+<text x="318" y="184" font-size="12" fill="#475569">Baixa certa, sem toque humano.</text>
+<text x="318" y="206" font-size="12" fill="#475569">É o que paga o projeto.</text>
+<text x="318" y="248" font-size="13" font-weight="700" fill="#0f766e">custo: ~R$ 0</text>
+<rect x="630" y="130" width="310" height="150" rx="8" fill="#0f172a"/>
+<text x="648" y="160" font-size="13" font-weight="700" fill="#ffffff">Falso positivo</text>
+<text x="648" y="184" font-size="12" fill="#cbd5e1">Baixa errada. Cliente cobrado de novo,</text>
+<text x="648" y="206" font-size="12" fill="#cbd5e1">conciliação do mês furada, confiança</text>
+<text x="648" y="228" font-size="12" fill="#cbd5e1">perdida. Alguém descobre semanas depois.</text>
+<text x="648" y="262" font-size="13" font-weight="700" fill="#fdba74">custo: centenas a milhares de reais</text>
+<rect x="300" y="300" width="310" height="150" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+<text x="318" y="330" font-size="13" font-weight="700" fill="#9a3412">Falso negativo</text>
+<text x="318" y="354" font-size="12" fill="#9a3412">Escalou sem precisar. Uma pessoa olha,</text>
+<text x="318" y="376" font-size="12" fill="#9a3412">aprova e segue.</text>
+<text x="318" y="418" font-size="13" font-weight="700" fill="#9a3412">custo: ~4 min de gente ≈ R$ 6</text>
+<rect x="630" y="300" width="310" height="150" rx="8" fill="#f0fdfa" stroke="#5eead4"/>
+<text x="648" y="330" font-size="13" font-weight="700" fill="#0f766e">Verdadeiro negativo</text>
+<text x="648" y="354" font-size="12" fill="#475569">Escalou o caso que de fato precisa</text>
+<text x="648" y="376" font-size="12" fill="#475569">de julgamento humano.</text>
+<text x="648" y="418" font-size="13" font-weight="700" fill="#0f766e">custo: ~4 min de gente ≈ R$ 6</text>
+<rect x="30" y="460" width="915" height="62" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="48" y="483" font-size="13" font-weight="700" fill="#0f172a">Um falso positivo custa ordens de grandeza mais que um falso negativo.</text>
+<text x="48" y="504" font-size="12" fill="#475569">Então: otimize precisão primeiro, aceite recall menor, e suba o recall depois — com dado, não com otimismo.</text>
+</svg>
