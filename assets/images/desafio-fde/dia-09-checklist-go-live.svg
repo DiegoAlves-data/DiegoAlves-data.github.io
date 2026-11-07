@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 630" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1000" height="630" fill="#ffffff"/>
+<text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">Checklist de go-live em uma página</text>
+<text x="30" y="58" font-size="14" fill="#475569">Sete blocos. Toda linha responde sim ou não — nenhuma passa com adjetivo.</text>
+
+<rect x="30" y="82" width="223" height="242" rx="8" fill="#ffffff" stroke="#94a3b8"/>
+<rect x="30" y="82" width="223" height="30" rx="8" fill="#f1f5f9"/>
+<rect x="30" y="104" width="223" height="8" fill="#f1f5f9"/>
+<text x="46" y="103" font-size="13" font-weight="700" fill="#0f172a">DADO</text>
+<rect x="46" y="130" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="66" y="140" font-size="11" fill="#475569">fonte e dono identificados</text>
+<rect x="46" y="160" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="66" y="170" font-size="11" fill="#475569">qualidade e volume medidos</text>
+<text x="66" y="185" font-size="11" fill="#475569">em amostra real</text>
+<rect x="46" y="205" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="66" y="215" font-size="11" fill="#475569">base legal definida, com o</text>
+<text x="66" y="230" font-size="11" fill="#475569">encarregado de dados</text>
+<rect x="46" y="250" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="66" y="260" font-size="11" fill="#475569">campos sensíveis mascarados</text>
+<text x="66" y="275" font-size="11" fill="#475569">na origem</text>
+
+<rect x="269" y="82" width="223" height="242" rx="8" fill="#ffffff" stroke="#94a3b8"/>
+<rect x="269" y="82" width="223" height="30" rx="8" fill="#f1f5f9"/>
+<rect x="269" y="104" width="223" height="8" fill="#f1f5f9"/>
+<text x="285" y="103" font-size="13" font-weight="700" fill="#0f172a">HARNESS</text>
+<rect x="285" y="130" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="305" y="140" font-size="11" fill="#475569">system prompt versionado</text>
+<rect x="285" y="160" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="305" y="170" font-size="11" fill="#475569">tools mínimas, sem</text>
+<text x="305" y="185" font-size="11" fill="#475569">sobreposição entre elas</text>
+<rect x="285" y="205" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="305" y="215" font-size="11" fill="#475569">critério de parada explícito</text>
+<rect x="285" y="235" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="305" y="245" font-size="11" fill="#475569">graph com as decisões</text>
+<text x="305" y="260" font-size="11" fill="#475569">separadas entre código,</text>
+<text x="305" y="275" font-size="11" fill="#475569">modelo e humano</text>
+
+<rect x="508" y="82" width="223" height="242" rx="8" fill="#ffffff" stroke="#94a3b8"/>
+<rect x="508" y="82" width="223" height="30" rx="8" fill="#f1f5f9"/>
+<rect x="508" y="104" width="223" height="8" fill="#f1f5f9"/>
+<text x="524" y="103" font-size="13" font-weight="700" fill="#0f172a">EVAL</text>
+<rect x="524" y="130" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="544" y="140" font-size="11" fill="#475569">suíte com casos positivos,</text>
+<text x="544" y="155" font-size="11" fill="#475569">negativos e adversariais</text>
+<rect x="524" y="175" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="544" y="185" font-size="11" fill="#475569">grader determinístico onde dá</text>
+<rect x="524" y="205" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="544" y="215" font-size="11" fill="#475569">baseline humano medido</text>
+<rect x="524" y="235" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="544" y="245" font-size="11" fill="#475569">gate escrito, com um</text>
+<text x="544" y="260" font-size="11" fill="#475569">número por linha</text>
+
+<rect x="747" y="82" width="223" height="242" rx="8" fill="#ffffff" stroke="#94a3b8"/>
+<rect x="747" y="82" width="223" height="30" rx="8" fill="#f1f5f9"/>
+<rect x="747" y="104" width="223" height="8" fill="#f1f5f9"/>
+<text x="763" y="103" font-size="13" font-weight="700" fill="#0f172a">PRODUÇÃO</text>
+<rect x="763" y="130" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="783" y="140" font-size="11" fill="#475569">fila com retry e backoff</text>
+<rect x="763" y="160" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="783" y="170" font-size="11" fill="#475569">DLQ com dono definido</text>
+<rect x="763" y="190" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="783" y="200" font-size="11" fill="#475569">idempotência em toda escrita</text>
+<rect x="763" y="220" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="783" y="230" font-size="11" fill="#475569">teto de custo por tarefa</text>
+<text x="783" y="245" font-size="11" fill="#475569">e por dia, com alerta antes</text>
+<rect x="763" y="265" width="11" height="11" rx="2" fill="#ffffff" stroke="#94a3b8"/>
+<text x="783" y="275" font-size="11" fill="#475569">p95 de tempo por tarefa</text>
+
+<rect x="30" y="340" width="223" height="242" rx="8" fill="#ffffff" stroke="#5eead4" stroke-width="2"/>
+<rect x="30" y="340" width="223" height="30" rx="8" fill="#f0fdfa"/>
+<rect x="30" y="362" width="223" height="8" fill="#f0fdfa"/>
+<text x="46" y="361" font-size="13" font-weight="700" fill="#0f766e">GUARDRAIL</text>
+<rect x="46" y="388" width="11" height="11" rx="2" fill="#ffffff" stroke="#5eead4"/>
+<text x="66" y="398" font-size="11" fill="#475569">limite de ação por valor</text>
+<text x="66" y="413" font-size="11" fill="#475569">e por tipo de operação</text>
+<rect x="46" y="433" width="11" height="11" rx="2" fill="#ffffff" stroke="#5eead4"/>
+<text x="66" y="443" font-size="11" fill="#475569">mínimo privilégio nas</text>
+<text x="66" y="458" font-size="11" fill="#475569">credenciais de cada sistema</text>
+<rect x="46" y="478" width="11" height="11" rx="2" fill="#ffffff" stroke="#5eead4"/>
+<text x="66" y="488" font-size="11" fill="#475569">validação determinística</text>
+<text x="66" y="503" font-size="11" fill="#475569">da saída, sempre</text>
+<rect x="46" y="523" width="11" height="11" rx="2" fill="#ffffff" stroke="#5eead4"/>
+<text x="66" y="533" font-size="11" fill="#475569">conteúdo não confiável</text>
+<text x="66" y="548" font-size="11" fill="#475569">marcado e isolado</text>
+
+<rect x="269" y="340" width="223" height="242" rx="8" fill="#ffffff" stroke="#5eead4" stroke-width="2"/>
+<rect x="269" y="340" width="223" height="30" rx="8" fill="#f0fdfa"/>
+<rect x="269" y="362" width="223" height="8" fill="#f0fdfa"/>
+<text x="285" y="361" font-size="13" font-weight="700" fill="#0f766e">OBSERVABILIDADE</text>
+<rect x="285" y="388" width="11" height="11" rx="2" fill="#ffffff" stroke="#5eead4"/>
+<text x="305" y="398" font-size="11" fill="#475569">trace completo, com versão</text>
+<text x="305" y="413" font-size="11" fill="#475569">de prompt e de modelo</text>
+<rect x="285" y="433" width="11" height="11" rx="2" fill="#ffffff" stroke="#5eead4"/>
+<text x="305" y="443" font-size="11" fill="#475569">mascaramento na escrita</text>
+<text x="305" y="458" font-size="11" fill="#475569">do log, não na tela</text>
+<rect x="285" y="478" width="11" height="11" rx="2" fill="#ffffff" stroke="#5eead4"/>
+<text x="305" y="488" font-size="11" fill="#475569">painel com os cinco grupos</text>
+<text x="305" y="503" font-size="11" fill="#475569">de métrica</text>
+<rect x="285" y="523" width="11" height="11" rx="2" fill="#ffffff" stroke="#5eead4"/>
+<text x="305" y="533" font-size="11" fill="#475569">alerta com limite e</text>
+<text x="305" y="548" font-size="11" fill="#475569">destinatário definidos</text>
+
+<rect x="508" y="340" width="223" height="242" rx="8" fill="#ffffff" stroke="#fdba74" stroke-width="2"/>
+<rect x="508" y="340" width="223" height="30" rx="8" fill="#fff7ed"/>
+<rect x="508" y="362" width="223" height="8" fill="#fff7ed"/>
+<text x="524" y="361" font-size="13" font-weight="700" fill="#9a3412">SAÍDA</text>
+<rect x="524" y="388" width="11" height="11" rx="2" fill="#ffffff" stroke="#fdba74"/>
+<text x="544" y="398" font-size="11" fill="#475569">feature flag de desligamento,</text>
+<text x="544" y="413" font-size="11" fill="#475569">testada de verdade</text>
+<rect x="524" y="433" width="11" height="11" rx="2" fill="#ffffff" stroke="#fdba74"/>
+<text x="544" y="443" font-size="11" fill="#475569">processo manual documentado</text>
+<text x="544" y="458" font-size="11" fill="#475569">e ensaiado após o go-live</text>
+<rect x="524" y="478" width="11" height="11" rx="2" fill="#ffffff" stroke="#fdba74"/>
+<text x="544" y="488" font-size="11" fill="#475569">dono e gatilho de rollback,</text>
+<text x="544" y="503" font-size="11" fill="#475569">com nome e número</text>
+<rect x="524" y="523" width="11" height="11" rx="2" fill="#ffffff" stroke="#fdba74"/>
+<text x="544" y="533" font-size="11" fill="#475569">forma de identificar tudo</text>
+<text x="544" y="548" font-size="11" fill="#475569">que o agente tocou</text>
+
+<rect x="747" y="340" width="223" height="242" rx="8" fill="#0f172a"/>
+<text x="763" y="372" font-size="13" font-weight="700" fill="#ffffff">O QUE NÃO ESTÁ AQUI</text>
+<text x="763" y="402" font-size="11" fill="#cbd5e1">Nenhuma linha fala sobre</text>
+<text x="763" y="417" font-size="11" fill="#cbd5e1">qual modelo usar.</text>
+<text x="763" y="447" font-size="11" fill="#fdba74">Modelo é configuração</text>
+<text x="763" y="462" font-size="11" fill="#fdba74">versionada dentro do bloco</text>
+<text x="763" y="477" font-size="11" fill="#fdba74">Harness, que a suíte de</text>
+<text x="763" y="492" font-size="11" fill="#fdba74">regressão testa quando muda.</text>
+<text x="763" y="522" font-size="11" fill="#cbd5e1">Isso diz bastante sobre</text>
+<text x="763" y="537" font-size="11" fill="#cbd5e1">onde o trabalho está.</text>
+
+<text x="30" y="608" font-size="12" fill="#475569">Cada linha é também uma pergunta de discovery: dá para fazer todas elas na primeira reunião, antes de escrever uma linha de código.</text>
+</svg>
