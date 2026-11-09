@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1000" height="480" fill="#ffffff"/>
+<text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">O que não ensina nada e o que vale ouro</text>
+<text x="30" y="58" font-size="14" fill="#475569">A mesma reunião de uma hora produz as duas coisas. A diferença está nas perguntas que você faz.</text>
+
+<text x="30" y="92" font-size="13" font-weight="700" fill="#9a3412">DADO RUIM — parece validação e não é</text>
+<rect x="30" y="104" width="430" height="74" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+<text x="46" y="130" font-size="13" font-weight="700" fill="#9a3412">Elogio</text>
+<text x="46" y="151" font-size="12" fill="#9a3412">"Que ideia bacana, isso aí é o futuro."</text>
+<text x="46" y="169" font-size="11" fill="#9a3412">Custo de dizer isso: zero. Valor informativo: zero.</text>
+<rect x="30" y="186" width="430" height="74" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+<text x="46" y="212" font-size="13" font-weight="700" fill="#9a3412">Fluff: futuro, genérico e hipotético</text>
+<text x="46" y="233" font-size="12" fill="#9a3412">"A gente normalmente faz assim." · "Eu usaria, sim."</text>
+<text x="46" y="251" font-size="11" fill="#9a3412">Resposta sobre um mundo que não aconteceu.</text>
+<rect x="30" y="268" width="430" height="74" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+<text x="46" y="294" font-size="13" font-weight="700" fill="#9a3412">Pedido de funcionalidade</text>
+<text x="46" y="315" font-size="12" fill="#9a3412">"Se tivesse um botão de exportar, eu comprava."</text>
+<text x="46" y="333" font-size="11" fill="#9a3412">É a solução dele, não o problema dele. Pergunte por quê.</text>
+
+<text x="540" y="92" font-size="13" font-weight="700" fill="#0f766e">SINAL DE OURO — alguém já pagou por isso</text>
+<rect x="540" y="104" width="430" height="74" rx="8" fill="#f0fdfa" stroke="#5eead4"/>
+<text x="556" y="130" font-size="13" font-weight="700" fill="#0f766e">Workaround</text>
+<text x="556" y="151" font-size="12" fill="#475569">Uma planilha paralela, uma macro, um estagiário, um freelancer.</text>
+<text x="556" y="169" font-size="11" fill="#475569">Ninguém mantém gambiarra por problema que não dói.</text>
+<rect x="540" y="186" width="430" height="74" rx="8" fill="#f0fdfa" stroke="#5eead4"/>
+<text x="556" y="212" font-size="13" font-weight="700" fill="#0f766e">Dinheiro já gasto no problema</text>
+<text x="556" y="233" font-size="12" fill="#475569">Licença, hora extra, consultoria, projeto que não saiu.</text>
+<text x="556" y="251" font-size="11" fill="#475569">Orçamento que já existe é a prova de que a dor foi aprovada.</text>
+<rect x="540" y="268" width="430" height="74" rx="8" fill="#f0fdfa" stroke="#5eead4"/>
+<text x="556" y="294" font-size="13" font-weight="700" fill="#0f766e">Um número que alguém já acompanha</text>
+<text x="556" y="315" font-size="12" fill="#475569">O dia do fechamento, o prazo médio de recebimento, a inadimplência.</text>
+<text x="556" y="333" font-size="11" fill="#475569">É a régua do seu ROI, e ela não foi inventada por você.</text>
+
+<rect x="30" y="368" width="940" height="92" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="48" y="394" font-size="13" font-weight="700" fill="#0f172a">A regra do um terço</text>
+<text x="48" y="416" font-size="12" fill="#475569">Se você falou mais de um terço do tempo, você vendeu, não aprendeu. E o cliente foi educado com você.</text>
+<text x="48" y="438" font-size="12" fill="#475569">Troque toda pergunta sobre o futuro por uma sobre o passado: não "você usaria?", mas "me conta a última vez que isso atrasou".</text>
+</svg>

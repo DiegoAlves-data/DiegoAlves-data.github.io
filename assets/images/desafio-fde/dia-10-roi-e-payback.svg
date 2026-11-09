@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1000" height="560" fill="#ffffff"/>
+<text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">O ROI não é um número: é uma conta que o outro lado pode auditar</text>
+<text x="30" y="58" font-size="14" fill="#475569">Duas parcelas de valor, um custo recorrente que quase ninguém mostra, e a linha que cruza o investimento.</text>
+<text x="30" y="88" font-size="12" fill="#94a3b8">Exemplo ilustrativo, com números fictícios: 6.000 recebimentos/mês, 400 h manuais, custo/hora carregado de R$ 80.</text>
+
+<text x="30" y="124" font-size="13" font-weight="700" fill="#0f172a">De onde vem o valor, por mês</text>
+
+<text x="182" y="168" font-size="12" fill="#475569" text-anchor="end">horas poupadas</text>
+<rect x="190" y="150" width="121" height="26" rx="4" fill="#5eead4"/>
+<text x="321" y="168" font-size="12" font-weight="700" fill="#0f766e">R$ 25,6 mil</text>
+<text x="190" y="192" font-size="11" fill="#94a3b8">320 h/mês × R$ 80 — 80% do volume sem toque humano</text>
+
+<text x="182" y="232" font-size="12" fill="#475569" text-anchor="end">erros evitados</text>
+<rect x="190" y="214" width="119" height="26" rx="4" fill="#5eead4"/>
+<text x="319" y="232" font-size="12" font-weight="700" fill="#0f766e">R$ 25,2 mil</text>
+<text x="190" y="256" font-size="11" fill="#94a3b8">30 erros/mês × R$ 1.200, 70% evitados</text>
+
+<text x="182" y="296" font-size="12" font-weight="700" fill="#0f172a" text-anchor="end">valor bruto</text>
+<rect x="190" y="278" width="240" height="26" rx="4" fill="#0f172a"/>
+<text x="440" y="296" font-size="12" font-weight="700" fill="#0f172a">R$ 50,8 mil</text>
+
+<text x="182" y="340" font-size="12" fill="#9a3412" text-anchor="end">− custo recorrente</text>
+<rect x="190" y="322" width="57" height="26" rx="4" fill="#fdba74"/>
+<text x="257" y="340" font-size="12" font-weight="700" fill="#9a3412">R$ 12 mil</text>
+<text x="190" y="364" font-size="11" fill="#94a3b8">plataforma, modelo, revisão humana e manutenção</text>
+
+<text x="182" y="404" font-size="12" font-weight="700" fill="#0f766e" text-anchor="end">valor líquido</text>
+<rect x="190" y="386" width="183" height="26" rx="4" fill="#0f766e"/>
+<text x="383" y="404" font-size="12" font-weight="700" fill="#0f766e">R$ 38,8 mil</text>
+
+<text x="540" y="124" font-size="13" font-weight="700" fill="#0f172a">Quando a conta vira positiva</text>
+<line x1="540" y1="400" x2="940" y2="400" stroke="#cbd5e1"/>
+<line x1="540" y1="322" x2="940" y2="322" stroke="#e2e8f0"/>
+<line x1="540" y1="244" x2="940" y2="244" stroke="#e2e8f0"/>
+<line x1="540" y1="166" x2="940" y2="166" stroke="#e2e8f0"/>
+<text x="532" y="404" font-size="11" fill="#475569" text-anchor="end">0</text>
+<text x="532" y="326" font-size="11" fill="#475569" text-anchor="end">150</text>
+<text x="532" y="248" font-size="11" fill="#475569" text-anchor="end">300</text>
+<text x="532" y="170" font-size="11" fill="#475569" text-anchor="end">450</text>
+<text x="540" y="146" font-size="11" fill="#94a3b8">acumulado, em R$ mil</text>
+<text x="540" y="420" font-size="11" fill="#475569">mês 0</text>
+<text x="673" y="420" font-size="11" fill="#475569" text-anchor="middle">4</text>
+<text x="807" y="420" font-size="11" fill="#475569" text-anchor="middle">8</text>
+<text x="940" y="420" font-size="11" fill="#475569" text-anchor="end">12</text>
+
+<line x1="540" y1="244" x2="940" y2="244" stroke="#fdba74" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="936" y="236" font-size="11" font-weight="700" fill="#9a3412" text-anchor="end">investimento inicial: R$ 300 mil</text>
+<polyline points="540,400 940,158" fill="none" stroke="#0f766e" stroke-width="3"/>
+<circle cx="798" cy="244" r="6" fill="#0f172a"/>
+<text x="786" y="212" font-size="12" font-weight="700" fill="#0f172a" text-anchor="end">payback ≈ 8 meses</text>
+<path d="M 790 218 L 796 236" stroke="#0f172a" stroke-width="1.5" fill="none"/>
+<text x="540" y="444" font-size="11" fill="#94a3b8">no ano 1 o ROI é ≈ 37%; no regime, com o investimento já pago, passa de 300%</text>
+
+<rect x="30" y="462" width="300" height="56" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+<text x="46" y="484" font-size="12" font-weight="700" fill="#9a3412">Cenário pessimista</text>
+<text x="46" y="504" font-size="11" fill="#9a3412">50% automático, 40% dos erros → payback ≈ 16 meses</text>
+
+<rect x="350" y="462" width="300" height="56" rx="8" fill="#f0fdfa" stroke="#5eead4"/>
+<text x="366" y="484" font-size="12" font-weight="700" fill="#0f766e">Cenário base</text>
+<text x="366" y="504" font-size="11" fill="#475569">80% automático, 70% dos erros → payback ≈ 8 meses</text>
+
+<rect x="670" y="462" width="300" height="56" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="686" y="484" font-size="12" font-weight="700" fill="#0f172a">O que você apresenta</text>
+<text x="686" y="504" font-size="11" fill="#475569">a faixa, e qual premissa mexe mais no resultado</text>
+
+<rect x="30" y="528" width="940" height="26" rx="6" fill="#0f172a"/>
+<text x="48" y="546" font-size="12" font-weight="700" fill="#ffffff">A frase final tem três números e nenhum adjetivo: de 0% para 80% em 90 dias, 320 horas por mês, payback em 8 meses.</text>
+</svg>
