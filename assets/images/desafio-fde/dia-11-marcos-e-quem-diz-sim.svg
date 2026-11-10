@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1000" height="460" fill="#ffffff"/>
+<text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">Os marcos do SOW, e quem pode travar cada um</text>
+<text x="30" y="58" font-size="14" fill="#475569">Cada marco tem uma entrega verificável e uma pessoa que precisa dizer sim. Descobrir quem é na semana do marco é tarde.</text>
+
+<g font-size="11">
+<rect x="30" y="84" width="150" height="214" rx="8" fill="#f0fdfa" stroke="#5eead4"/>
+<text x="44" y="110" font-size="14" font-weight="700" fill="#0f766e">1 · Discovery</text>
+<text x="44" y="128" fill="#475569">semanas 1–2</text>
+<line x1="44" y1="140" x2="166" y2="140" stroke="#99f6e4"/>
+<text x="44" y="162" font-size="10" font-weight="700" fill="#0f766e">ENTREGA</text>
+<text x="44" y="180" fill="#0f172a">mapa de processo</text>
+<text x="44" y="196" fill="#0f172a">e baseline medida</text>
+<text x="44" y="230" font-size="10" font-weight="700" fill="#0f766e">QUEM DIZ SIM</text>
+<text x="44" y="248" fill="#0f172a">champion e o dono</text>
+<text x="44" y="264" fill="#0f172a">do dado (leitura)</text>
+
+<rect x="188" y="84" width="150" height="214" rx="8" fill="#f0fdfa" stroke="#5eead4"/>
+<text x="202" y="110" font-size="14" font-weight="700" fill="#0f766e">2 · Protótipo</text>
+<text x="202" y="128" fill="#475569">semanas 3–4</text>
+<line x1="202" y1="140" x2="324" y2="140" stroke="#99f6e4"/>
+<text x="202" y="162" font-size="10" font-weight="700" fill="#0f766e">ENTREGA</text>
+<text x="202" y="180" fill="#0f172a">suíte de eval com</text>
+<text x="202" y="196" fill="#0f172a">casos reais rotulados</text>
+<text x="202" y="230" font-size="10" font-weight="700" fill="#0f766e">QUEM DIZ SIM</text>
+<text x="202" y="248" fill="#0f172a">usuário impactado,</text>
+<text x="202" y="264" fill="#0f172a">autor dos casos</text>
+
+<rect x="346" y="84" width="150" height="214" rx="8" fill="#f0fdfa" stroke="#5eead4"/>
+<text x="360" y="110" font-size="14" font-weight="700" fill="#0f766e">3 · Shadow</text>
+<text x="360" y="128" fill="#475569">semanas 5–8</text>
+<line x1="360" y1="140" x2="482" y2="140" stroke="#99f6e4"/>
+<text x="360" y="162" font-size="10" font-weight="700" fill="#0f766e">ENTREGA</text>
+<text x="360" y="180" fill="#0f172a">a conta medida: acerto,</text>
+<text x="360" y="196" fill="#0f172a">tempo, override</text>
+<text x="360" y="230" font-size="10" font-weight="700" fill="#0f766e">QUEM DIZ SIM</text>
+<text x="360" y="248" fill="#0f172a">sponsor, sobre a conta;</text>
+<text x="360" y="264" fill="#0f172a">blocker, sobre o acesso</text>
+
+<rect x="504" y="84" width="150" height="214" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+<text x="518" y="110" font-size="14" font-weight="700" fill="#9a3412">4 · Go-live</text>
+<text x="518" y="128" fill="#9a3412">semana 9</text>
+<line x1="518" y1="140" x2="640" y2="140" stroke="#fed7aa"/>
+<text x="518" y="162" font-size="10" font-weight="700" fill="#9a3412">ENTREGA</text>
+<text x="518" y="180" fill="#0f172a">agente em produção;</text>
+<text x="518" y="196" fill="#0f172a">humano efetiva a baixa</text>
+<text x="518" y="230" font-size="10" font-weight="700" fill="#9a3412">QUEM DIZ SIM</text>
+<text x="518" y="248" fill="#0f172a">sponsor e blocker,</text>
+<text x="518" y="264" fill="#0f172a">contra o aceite escrito</text>
+
+<rect x="662" y="84" width="150" height="214" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+<text x="676" y="110" font-size="14" font-weight="700" fill="#9a3412">5 · Assistida</text>
+<text x="676" y="128" fill="#9a3412">semanas 10–13</text>
+<line x1="676" y1="140" x2="798" y2="140" stroke="#fed7aa"/>
+<text x="676" y="162" font-size="10" font-weight="700" fill="#9a3412">ENTREGA</text>
+<text x="676" y="180" fill="#0f172a">80% sem toque,</text>
+<text x="676" y="196" fill="#0f172a">adoção medida</text>
+<text x="676" y="230" font-size="10" font-weight="700" fill="#9a3412">QUEM DIZ SIM</text>
+<text x="676" y="248" fill="#0f172a">usuário impactado,</text>
+<text x="676" y="264" fill="#0f172a">que usa ou contorna</text>
+
+<rect x="820" y="84" width="150" height="214" rx="8" fill="#0f172a"/>
+<text x="834" y="110" font-size="14" font-weight="700" fill="#ffffff">6 · Saída</text>
+<text x="834" y="128" fill="#cbd5e1">semana 14</text>
+<line x1="834" y1="140" x2="956" y2="140" stroke="#475569"/>
+<text x="834" y="162" font-size="10" font-weight="700" fill="#5eead4">ENTREGA</text>
+<text x="834" y="180" fill="#ffffff">IaC, evals, MCP,</text>
+<text x="834" y="196" fill="#ffffff">runbooks</text>
+<text x="834" y="230" font-size="10" font-weight="700" fill="#5eead4">QUEM DIZ SIM</text>
+<text x="834" y="248" fill="#ffffff">o dono treinado, que</text>
+<text x="834" y="264" fill="#ffffff">assume sem a gente</text>
+</g>
+
+<path d="M30 318 v10 h466 v-10" fill="none" stroke="#0f766e" stroke-width="2"/>
+<text x="263" y="348" font-size="12" font-weight="700" fill="#0f766e" text-anchor="middle">Fase 1 · preço fixo · entrega a conta</text>
+<path d="M504 318 v10 h466 v-10" fill="none" stroke="#9a3412" stroke-width="2"/>
+<text x="737" y="348" font-size="12" font-weight="700" fill="#9a3412" text-anchor="middle">Fase 2 · marcos + recorrente · entrega a operação</text>
+
+<rect x="30" y="372" width="940" height="68" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="48" y="398" font-size="13" font-weight="700" fill="#0f172a">Se a conta da fase 1 não fechar, o projeto acaba cedo e barato, e isso está escrito no SOW desde o primeiro dia.</text>
+<text x="48" y="420" font-size="12" fill="#475569">Não é uma cláusula de proteção do fornecedor. É a que mais facilita o sim do sponsor: ele está aprovando um experimento, não um ato de fé.</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1000" height="560" fill="#ffffff"/>
+<text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">NRR e expansão: a conta que cresce sem cliente novo</text>
+<text x="30" y="58" font-size="14" fill="#475569">À esquerda, a fórmula com números redondos e fictícios. À direita, de onde a expansão sai dentro de uma conta só.</text>
+
+<text x="30" y="90" font-size="13" font-weight="700" fill="#0f172a">Receita da mesma base de clientes, em R$ mil</text>
+<line x1="40" y1="400" x2="465" y2="400" stroke="#94a3b8"/>
+<line x1="40" y1="140" x2="465" y2="140" stroke="#cbd5e1" stroke-dasharray="4 4"/>
+
+<rect x="50" y="227" width="65" height="173" fill="#334155"/>
+<text x="82" y="219" font-size="12" font-weight="700" fill="#0f172a" text-anchor="middle">1.000</text>
+<text x="82" y="420" font-size="11" fill="#475569" text-anchor="middle">receita</text>
+<text x="82" y="435" font-size="11" fill="#475569" text-anchor="middle">inicial</text>
+
+<line x1="115" y1="227" x2="135" y2="227" stroke="#94a3b8" stroke-dasharray="3 3"/>
+<rect x="135" y="123" width="65" height="104" fill="#0f766e"/>
+<text x="167" y="115" font-size="12" font-weight="700" fill="#0f766e" text-anchor="middle">+600</text>
+<text x="167" y="420" font-size="11" fill="#475569" text-anchor="middle">expansão</text>
+
+<line x1="200" y1="123" x2="220" y2="123" stroke="#94a3b8" stroke-dasharray="3 3"/>
+<rect x="220" y="123" width="65" height="9" fill="#ea580c"/>
+<text x="252" y="156" font-size="12" font-weight="700" fill="#9a3412" text-anchor="middle">−50</text>
+<text x="252" y="420" font-size="11" fill="#475569" text-anchor="middle">contração</text>
+
+<line x1="285" y1="132" x2="305" y2="132" stroke="#94a3b8" stroke-dasharray="3 3"/>
+<rect x="305" y="132" width="65" height="8" fill="#ea580c"/>
+<text x="337" y="164" font-size="12" font-weight="700" fill="#9a3412" text-anchor="middle">−50</text>
+<text x="337" y="420" font-size="11" fill="#475569" text-anchor="middle">churn</text>
+
+<rect x="390" y="140" width="65" height="260" fill="#0f172a"/>
+<text x="422" y="132" font-size="12" font-weight="700" fill="#0f172a" text-anchor="middle">1.500</text>
+<text x="422" y="420" font-size="11" fill="#475569" text-anchor="middle">um ano</text>
+<text x="422" y="435" font-size="11" fill="#475569" text-anchor="middle">depois</text>
+
+<rect x="40" y="452" width="425" height="40" rx="8" fill="#f0fdfa" stroke="#5eead4"/>
+<text x="252" y="477" font-size="13" font-weight="700" fill="#0f766e" text-anchor="middle">NRR = (1.000 + 600 − 50 − 50) ÷ 1.000 = 150%</text>
+
+<text x="500" y="90" font-size="13" font-weight="700" fill="#0f172a">Land and expand na conta da conciliação</text>
+
+<rect x="500" y="104" width="470" height="70" rx="8" fill="#334155"/>
+<text x="516" y="128" font-size="13" font-weight="700" fill="#ffffff">1 · Conciliação de recebíveis · o primeiro contrato</text>
+<text x="516" y="148" font-size="12" fill="#cbd5e1">Nasce aqui: conectores do banco e do ERP, glossário,</text>
+<text x="516" y="164" font-size="12" fill="#cbd5e1">runner de eval e a confiança de quem assina.</text>
+
+<path d="M530 176 v14" stroke="#94a3b8" stroke-width="2"/><path d="M525 186 l5 6 l5 -6" fill="none" stroke="#94a3b8" stroke-width="2"/>
+
+<rect x="500" y="194" width="470" height="70" rx="8" fill="#f0fdfa" stroke="#5eead4"/>
+<text x="516" y="218" font-size="13" font-weight="700" fill="#0f766e">2 · Régua de cobrança · a exceção vira o próximo caso</text>
+<text x="516" y="238" font-size="12" fill="#475569">Os 420 pagadores divergentes por mês mostram onde a</text>
+<text x="516" y="254" font-size="12" fill="#475569">cobrança nasce mal identificada. Ninguém sabia antes.</text>
+
+<path d="M530 266 v14" stroke="#94a3b8" stroke-width="2"/><path d="M525 276 l5 6 l5 -6" fill="none" stroke="#94a3b8" stroke-width="2"/>
+
+<rect x="500" y="284" width="470" height="70" rx="8" fill="#f0fdfa" stroke="#5eead4"/>
+<text x="516" y="308" font-size="13" font-weight="700" fill="#0f766e">3 · Contas a pagar · o mesmo trilho, na outra direção</text>
+<text x="516" y="328" font-size="12" fill="#475569">Reaproveita conectores, graph e guardrails. O dono do</text>
+<text x="516" y="344" font-size="12" fill="#475569">dado já disse sim uma vez, e o blocker já conhece o trace.</text>
+
+<path d="M530 356 v14" stroke="#94a3b8" stroke-width="2"/><path d="M525 366 l5 6 l5 -6" fill="none" stroke="#94a3b8" stroke-width="2"/>
+
+<rect x="500" y="374" width="470" height="70" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+<text x="516" y="398" font-size="13" font-weight="700" fill="#9a3412">4 · Projeção de caixa · o que o CFO queria desde o início</text>
+<text x="516" y="418" font-size="12" fill="#9a3412">Só fica possível agora: o histórico conciliado virou</text>
+<text x="516" y="434" font-size="12" fill="#9a3412">dado confiável. Ninguém venderia isso no dia 1.</text>
+
+<rect x="30" y="508" width="940" height="40" rx="8" fill="#0f172a"/>
+<text x="48" y="533" font-size="13" font-weight="700" fill="#ffffff">Se o segundo caso custa o mesmo que o primeiro, não é expansão. É outro projeto vendido para o mesmo cliente.</text>
+</svg>

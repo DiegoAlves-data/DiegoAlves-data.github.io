@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<defs>
+<linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0" stop-color="#94a3b8"/>
+<stop offset="1" stop-color="#ea580c"/>
+</linearGradient>
+</defs>
+<rect width="1000" height="470" fill="#ffffff"/>
+<text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">Cinco modelos de preço, uma pergunta: quem carrega o risco?</text>
+<text x="30" y="58" font-size="14" fill="#475569">Quanto mais à direita, mais o fornecedor só ganha se o agente funcionar, e mais ele depende de uma medição que os dois aceitem.</text>
+
+<rect x="30" y="80" width="940" height="10" rx="5" fill="url(#g)"/>
+<text x="30" y="110" font-size="12" font-weight="700" fill="#475569">risco com o cliente</text>
+<text x="970" y="110" font-size="12" font-weight="700" fill="#9a3412" text-anchor="end">risco com o fornecedor</text>
+
+<g font-size="11">
+<rect x="30" y="124" width="180" height="220" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="44" y="150" font-size="14" font-weight="700" fill="#0f172a">Tempo e material</text>
+<text x="44" y="168" fill="#475569">por hora ou squad-mês</text>
+<line x1="44" y1="180" x2="196" y2="180" stroke="#cbd5e1"/>
+<text x="44" y="202" fill="#0f172a">O cliente paga o esforço,</text>
+<text x="44" y="218" fill="#0f172a">dê certo ou não.</text>
+<text x="44" y="250" font-size="10" font-weight="700" fill="#64748b">EXIGE</text>
+<text x="44" y="268" fill="#0f172a">confiança no time.</text>
+<text x="44" y="310" font-size="10" font-weight="700" fill="#64748b">O QUE VIRA</text>
+<text x="44" y="328" fill="#0f172a">serviço. Não escala.</text>
+
+<rect x="220" y="124" width="180" height="220" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="234" y="150" font-size="14" font-weight="700" fill="#0f172a">Fixo por marco</text>
+<text x="234" y="168" fill="#475569">pago a cada entrega</text>
+<line x1="234" y1="180" x2="386" y2="180" stroke="#cbd5e1"/>
+<text x="234" y="202" fill="#0f172a">O risco de prazo passa</text>
+<text x="234" y="218" fill="#0f172a">para o fornecedor.</text>
+<text x="234" y="250" font-size="10" font-weight="700" fill="#64748b">EXIGE</text>
+<text x="234" y="268" fill="#0f172a">escopo fechado e o</text>
+<text x="234" y="284" fill="#0f172a">"fora" escrito.</text>
+<text x="234" y="310" font-size="10" font-weight="700" fill="#64748b">O QUE VIRA</text>
+<text x="234" y="328" fill="#0f172a">projeto previsível.</text>
+
+<rect x="410" y="124" width="180" height="220" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+<text x="424" y="150" font-size="14" font-weight="700" fill="#0f766e">Plataforma + deploy</text>
+<text x="424" y="168" fill="#475569">implantação + assinatura</text>
+<line x1="424" y1="180" x2="576" y2="180" stroke="#99f6e4"/>
+<text x="424" y="202" fill="#0f172a">Divide: a implantação é</text>
+<text x="424" y="218" fill="#0f172a">única, a operação recorre.</text>
+<text x="424" y="250" font-size="10" font-weight="700" fill="#0f766e">EXIGE</text>
+<text x="424" y="268" fill="#0f172a">plataforma de verdade,</text>
+<text x="424" y="284" fill="#0f172a">não um repositório.</text>
+<text x="424" y="310" font-size="10" font-weight="700" fill="#0f766e">O QUE VIRA</text>
+<text x="424" y="328" fill="#0f172a">receita recorrente.</text>
+
+<rect x="600" y="124" width="180" height="220" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+<text x="614" y="150" font-size="14" font-weight="700" fill="#9a3412">Por tarefa</text>
+<text x="614" y="168" fill="#9a3412">por conciliação aceita</text>
+<line x1="614" y1="180" x2="766" y2="180" stroke="#fed7aa"/>
+<text x="614" y="202" fill="#0f172a">O fornecedor só ganha se</text>
+<text x="614" y="218" fill="#0f172a">o agente for usado.</text>
+<text x="614" y="250" font-size="10" font-weight="700" fill="#9a3412">EXIGE</text>
+<text x="614" y="268" fill="#0f172a">definição escrita do</text>
+<text x="614" y="284" fill="#0f172a">que conta como tarefa.</text>
+<text x="614" y="310" font-size="10" font-weight="700" fill="#9a3412">O QUE VIRA</text>
+<text x="614" y="328" fill="#0f172a">receita que escala com uso.</text>
+
+<rect x="790" y="124" width="180" height="220" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+<text x="804" y="150" font-size="14" font-weight="700" fill="#9a3412">Por resultado</text>
+<text x="804" y="168" fill="#9a3412">% da economia gerada</text>
+<line x1="804" y1="180" x2="956" y2="180" stroke="#fed7aa"/>
+<text x="804" y="202" fill="#0f172a">O fornecedor só ganha se</text>
+<text x="804" y="218" fill="#0f172a">o número do cliente mexer.</text>
+<text x="804" y="250" font-size="10" font-weight="700" fill="#9a3412">EXIGE</text>
+<text x="804" y="268" fill="#0f172a">baseline e uma regra de</text>
+<text x="804" y="284" fill="#0f172a">atribuição assinada.</text>
+<text x="804" y="310" font-size="10" font-weight="700" fill="#9a3412">O QUE VIRA</text>
+<text x="804" y="328" fill="#0f172a">sociedade no resultado.</text>
+</g>
+
+<path d="M500 352 v12 h190 v-12" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="595" y="382" font-size="12" font-weight="700" fill="#0f172a" text-anchor="middle">o que eu proporia na fase 2</text>
+
+<rect x="30" y="396" width="940" height="60" rx="8" fill="#0f172a"/>
+<text x="48" y="420" font-size="13" font-weight="700" fill="#ffffff">Fase 1 fixa. Depois, assinatura de plataforma + R$ 1,20 por conciliação aceita, com teto mensal.</text>
+<text x="48" y="442" font-size="12" fill="#cbd5e1">E a cláusula que fecha o incentivo: cada baixa desfeita no mês seguinte desconta dez conciliações. Agressividade deixa de dar lucro.</text>
+</svg>
