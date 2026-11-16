@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 672" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1000" height="672" fill="#ffffff"/>
+<text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">Sete peças com contrato</text>
+<text x="30" y="58" font-size="14" fill="#475569">O agente de conciliação quebrado em componentes. Cada um com entrada, saída, erro e dono.</text>
+
+<!-- Row 1: 4 cards, width 227, gap 10 -->
+<g>
+<rect x="30" y="80" width="227" height="262" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="44" y="104" font-size="14" font-weight="700" fill="#0f172a">1 · Conector do banco</text>
+<text x="44" y="120" font-size="11" fill="#475569">servidor MCP</text>
+<line x1="44" y1="130" x2="243" y2="130" stroke="#cbd5e1"/>
+<text x="44" y="150" font-size="10" font-weight="700" fill="#64748b">ENTRADA</text>
+<text x="44" y="166" font-size="11" fill="#0f172a">conta e período de até 31 dias</text>
+<text x="44" y="190" font-size="10" font-weight="700" fill="#64748b">SAÍDA</text>
+<text x="44" y="206" font-size="11" fill="#0f172a">lista de Recebimento</text>
+<text x="44" y="230" font-size="10" font-weight="700" fill="#64748b">ERRO</text>
+<text x="44" y="246" font-size="11" fill="#0f172a">período longo demais;</text>
+<text x="44" y="261" font-size="11" fill="#0f172a">banco fora do ar, com retry</text>
+<text x="44" y="285" font-size="10" font-weight="700" fill="#64748b">DONO</text>
+<text x="44" y="301" font-size="11" fill="#0f172a">integração, com aval</text>
+<text x="44" y="316" font-size="11" fill="#0f172a">da tesouraria</text>
+</g>
+
+<g>
+<rect x="267" y="80" width="227" height="262" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+<text x="281" y="104" font-size="14" font-weight="700" fill="#9a3412">2 · Camada anticorrupção</text>
+<text x="281" y="120" font-size="11" fill="#475569">servidor MCP do ERP</text>
+<line x1="281" y1="130" x2="480" y2="130" stroke="#fed7aa"/>
+<text x="281" y="150" font-size="10" font-weight="700" fill="#9a3412">ENTRADA</text>
+<text x="281" y="166" font-size="11" fill="#0f172a">cliente, valor, vencimento</text>
+<text x="281" y="190" font-size="10" font-weight="700" fill="#9a3412">SAÍDA</text>
+<text x="281" y="206" font-size="11" fill="#0f172a">Cobrança no modelo canônico</text>
+<text x="281" y="230" font-size="10" font-weight="700" fill="#9a3412">ERRO</text>
+<text x="281" y="246" font-size="11" fill="#0f172a">código desconhecido vira erro</text>
+<text x="281" y="261" font-size="11" fill="#0f172a">explícito, nunca adivinhação</text>
+<text x="281" y="285" font-size="10" font-weight="700" fill="#9a3412">DONO</text>
+<text x="281" y="301" font-size="11" fill="#0f172a">dono do dado + FDE</text>
+</g>
+
+<g>
+<rect x="504" y="80" width="227" height="262" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="518" y="104" font-size="14" font-weight="700" fill="#0f172a">3 · conciliacao_propor</text>
+<text x="518" y="120" font-size="11" fill="#475569">tool de escrita</text>
+<line x1="518" y1="130" x2="717" y2="130" stroke="#cbd5e1"/>
+<text x="518" y="150" font-size="10" font-weight="700" fill="#64748b">ENTRADA</text>
+<text x="518" y="166" font-size="11" fill="#0f172a">recebimento, cobrança,</text>
+<text x="518" y="181" font-size="11" fill="#0f172a">justificativa, confiança</text>
+<text x="518" y="205" font-size="10" font-weight="700" fill="#64748b">SAÍDA</text>
+<text x="518" y="221" font-size="11" fill="#0f172a">proposta com id idempotente</text>
+<text x="518" y="245" font-size="10" font-weight="700" fill="#64748b">ERRO</text>
+<text x="518" y="261" font-size="11" fill="#0f172a">duplicata; valor divergente</text>
+<text x="518" y="285" font-size="10" font-weight="700" fill="#64748b">DONO</text>
+<text x="518" y="301" font-size="11" fill="#0f172a">FDE</text>
+</g>
+
+<g>
+<rect x="741" y="80" width="229" height="262" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="755" y="104" font-size="14" font-weight="700" fill="#0f172a">4 · Prompt do agente</text>
+<text x="755" y="120" font-size="11" fill="#475569">versionado, como código</text>
+<line x1="755" y1="130" x2="956" y2="130" stroke="#cbd5e1"/>
+<text x="755" y="150" font-size="10" font-weight="700" fill="#64748b">ENTRADA</text>
+<text x="755" y="166" font-size="11" fill="#0f172a">recebimento e candidatas</text>
+<text x="755" y="190" font-size="10" font-weight="700" fill="#64748b">SAÍDA</text>
+<text x="755" y="206" font-size="11" fill="#0f172a">proposta ou escalonamento,</text>
+<text x="755" y="221" font-size="11" fill="#0f172a">em formato fixo</text>
+<text x="755" y="245" font-size="10" font-weight="700" fill="#64748b">ERRO</text>
+<text x="755" y="261" font-size="11" fill="#0f172a">saída fora do esquema,</text>
+<text x="755" y="276" font-size="11" fill="#0f172a">rejeitada pelo validador</text>
+<text x="755" y="300" font-size="10" font-weight="700" fill="#64748b">DONO</text>
+<text x="755" y="316" font-size="11" fill="#0f172a">FDE; regras assinadas</text>
+<text x="755" y="331" font-size="11" fill="#0f172a">pela champion</text>
+</g>
+
+<!-- Row 2: 3 cards -->
+<g>
+<rect x="30" y="358" width="305" height="200" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="44" y="382" font-size="14" font-weight="700" fill="#0f172a">5 · Suíte de eval</text>
+<line x1="44" y1="394" x2="321" y2="394" stroke="#cbd5e1"/>
+<text x="44" y="414" font-size="10" font-weight="700" fill="#64748b">ENTRADA</text>
+<text x="44" y="430" font-size="11" fill="#0f172a">uma versão de prompt, modelo e tools</text>
+<text x="44" y="454" font-size="10" font-weight="700" fill="#64748b">SAÍDA</text>
+<text x="44" y="470" font-size="11" fill="#0f172a">acerto por categoria e taxa de baixa errada</text>
+<text x="44" y="494" font-size="10" font-weight="700" fill="#64748b">ERRO</text>
+<text x="44" y="510" font-size="11" fill="#0f172a">abaixo do limiar: bloqueia o deploy</text>
+<text x="44" y="534" font-size="10" font-weight="700" fill="#64748b">DONO</text>
+<text x="44" y="550" font-size="11" fill="#0f172a">os analistas, autores dos casos (Dia 11)</text>
+</g>
+
+<g>
+<rect x="347" y="358" width="305" height="200" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="361" y="382" font-size="14" font-weight="700" fill="#0f172a">6 · Política de guardrail</text>
+<line x1="361" y1="394" x2="638" y2="394" stroke="#cbd5e1"/>
+<text x="361" y="414" font-size="10" font-weight="700" fill="#64748b">ENTRADA</text>
+<text x="361" y="430" font-size="11" fill="#0f172a">uma ação proposta pelo agente</text>
+<text x="361" y="454" font-size="10" font-weight="700" fill="#64748b">SAÍDA</text>
+<text x="361" y="470" font-size="11" fill="#0f172a">permitir, bloquear ou pedir humano</text>
+<text x="361" y="494" font-size="10" font-weight="700" fill="#64748b">ERRO</text>
+<text x="361" y="510" font-size="11" fill="#0f172a">bloqueio registrado no trace</text>
+<text x="361" y="534" font-size="10" font-weight="700" fill="#64748b">DONO</text>
+<text x="361" y="550" font-size="11" fill="#0f172a">segurança</text>
+</g>
+
+<g>
+<rect x="664" y="358" width="306" height="200" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+<text x="678" y="382" font-size="14" font-weight="700" fill="#0f766e">7 · Esquema canônico</text>
+<line x1="678" y1="394" x2="956" y2="394" stroke="#99f6e4"/>
+<text x="678" y="414" font-size="10" font-weight="700" fill="#0f766e">DEFINE</text>
+<text x="678" y="430" font-size="11" fill="#0f172a">Recebimento, Cobrança, Proposta, Exceção</text>
+<text x="678" y="454" font-size="10" font-weight="700" fill="#0f766e">REGRA</text>
+<text x="678" y="470" font-size="11" fill="#0f172a">dinheiro sempre em centavos e com moeda</text>
+<text x="678" y="494" font-size="10" font-weight="700" fill="#0f766e">ERRO</text>
+<text x="678" y="510" font-size="11" fill="#0f172a">mudança sem versão nova</text>
+<text x="678" y="534" font-size="10" font-weight="700" fill="#0f766e">DONO</text>
+<text x="678" y="550" font-size="11" fill="#0f172a">o glossário; o financeiro decide o sentido</text>
+</g>
+
+<rect x="30" y="578" width="940" height="70" rx="8" fill="#0f172a"/>
+<text x="500" y="608" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">A peça que tem contrato vai para o próximo cliente.</text>
+<text x="500" y="632" font-size="13" fill="#cbd5e1" text-anchor="middle">A que não tem fica no primeiro, e é refeita do zero no segundo.</text>
+</svg>

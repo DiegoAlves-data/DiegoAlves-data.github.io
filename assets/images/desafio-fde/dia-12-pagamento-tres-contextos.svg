@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1000" height="520" fill="#ffffff"/>
+<text x="30" y="36" font-size="22" font-weight="700" fill="#0f172a">"Pagamento": uma palavra, três contextos</text>
+<text x="30" y="58" font-size="14" fill="#475569">O caso da série, a conciliação. O que a palavra significa, qual é a evidência e o que acontece se o agente usar o sentido errado.</text>
+
+<!-- Atendimento -->
+<rect x="30" y="82" width="300" height="320" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+<text x="48" y="110" font-size="16" font-weight="700" fill="#9a3412">Atendimento</text>
+<line x1="48" y1="122" x2="312" y2="122" stroke="#fed7aa"/>
+<text x="48" y="146" font-size="10" font-weight="700" fill="#9a3412">PAGAMENTO É</text>
+<text x="48" y="164" font-size="13" fill="#0f172a">o cliente dizendo que pagou</text>
+<text x="48" y="202" font-size="10" font-weight="700" fill="#9a3412">A EVIDÊNCIA</text>
+<text x="48" y="220" font-size="13" fill="#0f172a">comprovante em PDF ou print,</text>
+<text x="48" y="237" font-size="13" fill="#0f172a">enviado por e-mail ou mensagem</text>
+<text x="48" y="275" font-size="10" font-weight="700" fill="#9a3412">SE O AGENTE USAR ESTE SENTIDO</text>
+<text x="48" y="293" font-size="13" fill="#0f172a">propõe baixa sobre comprovante</text>
+<text x="48" y="310" font-size="13" fill="#0f172a">errado, repetido ou falso</text>
+<text x="48" y="336" font-size="13" fill="#0f172a">e o PDF de terceiro é porta</text>
+<text x="48" y="353" font-size="13" fill="#0f172a">de injeção de instrução (Dia 9)</text>
+<text x="48" y="386" font-size="12" font-weight="700" fill="#9a3412">entra como: alegação de pagamento</text>
+
+<!-- Financeiro -->
+<rect x="350" y="82" width="300" height="320" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+<text x="368" y="110" font-size="16" font-weight="700" fill="#0f766e">Financeiro</text>
+<text x="632" y="110" font-size="11" font-weight="700" fill="#0f766e" text-anchor="end">ONDE O AGENTE MORA</text>
+<line x1="368" y1="122" x2="632" y2="122" stroke="#99f6e4"/>
+<text x="368" y="146" font-size="10" font-weight="700" fill="#0f766e">PAGAMENTO É</text>
+<text x="368" y="164" font-size="13" fill="#0f172a">o crédito que apareceu no extrato</text>
+<text x="368" y="202" font-size="10" font-weight="700" fill="#0f766e">A EVIDÊNCIA</text>
+<text x="368" y="220" font-size="13" fill="#0f172a">lançamento bancário com valor,</text>
+<text x="368" y="237" font-size="13" fill="#0f172a">data e pagador</text>
+<text x="368" y="275" font-size="10" font-weight="700" fill="#0f766e">POR QUE ESTE SENTIDO</text>
+<text x="368" y="293" font-size="13" fill="#0f172a">é o único que prova que o dinheiro</text>
+<text x="368" y="310" font-size="13" fill="#0f172a">existe, e o único que autoriza</text>
+<text x="368" y="327" font-size="13" fill="#0f172a">propor uma baixa</text>
+<text x="368" y="386" font-size="12" font-weight="700" fill="#0f766e">entra como: Recebimento</text>
+
+<!-- Fiscal -->
+<rect x="670" y="82" width="300" height="320" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="688" y="110" font-size="16" font-weight="700" fill="#0f172a">Fiscal</text>
+<line x1="688" y1="122" x2="952" y2="122" stroke="#cbd5e1"/>
+<text x="688" y="146" font-size="10" font-weight="700" fill="#64748b">PAGAMENTO É</text>
+<text x="688" y="164" font-size="13" fill="#0f172a">um evento que precisa de nota</text>
+<text x="688" y="181" font-size="13" fill="#0f172a">no valor e na competência certos</text>
+<text x="688" y="219" font-size="10" font-weight="700" fill="#64748b">A EVIDÊNCIA</text>
+<text x="688" y="237" font-size="13" fill="#0f172a">a nota emitida e a sua relação</text>
+<text x="688" y="254" font-size="13" fill="#0f172a">com o recebimento</text>
+<text x="688" y="292" font-size="10" font-weight="700" fill="#64748b">SE O AGENTE USAR ESTE SENTIDO</text>
+<text x="688" y="310" font-size="13" fill="#0f172a">trata como resolvido o que está</text>
+<text x="688" y="327" font-size="13" fill="#0f172a">pago sem nota, ou com nota em</text>
+<text x="688" y="344" font-size="13" fill="#0f172a">valor diferente</text>
+<text x="688" y="386" font-size="12" font-weight="700" fill="#475569">entra como: consumidor do conciliado</text>
+
+<rect x="30" y="424" width="940" height="72" rx="8" fill="#0f172a"/>
+<text x="500" y="455" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Três verdades sobre o mesmo dinheiro. O agente de conciliação mora no contexto financeiro.</text>
+<text x="500" y="479" font-size="13" fill="#cbd5e1" text-anchor="middle">Os outros dois sentidos entram por tradução explícita, nunca crus.</text>
+</svg>
